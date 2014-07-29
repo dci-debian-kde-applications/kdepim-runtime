@@ -13,7 +13,6 @@ usr/bin/akonadi_kolabproxy_resource
 usr/bin/akonadi_localbookmarks_resource
 usr/bin/akonadi_maildispatcher_agent
 usr/bin/akonadi_mailtransport_dummy_resource
-usr/bin/akonadi_microblog_resource
 usr/bin/akonadi_migration_agent
 usr/bin/akonadi_mixedmaildir_resource
 usr/bin/akonadi_newmailnotifier_agent
@@ -110,7 +109,6 @@ usr/share/akonadi/agents/localbookmarksresource.desktop
 usr/share/akonadi/agents/maildirresource.desktop
 usr/share/akonadi/agents/maildispatcheragent.desktop
 usr/share/akonadi/agents/mboxresource.desktop
-usr/share/akonadi/agents/microblog.desktop
 usr/share/akonadi/agents/migrationagent.desktop
 usr/share/akonadi/agents/mixedmaildirresource.desktop
 usr/share/akonadi/agents/mtdummyresource.desktop
@@ -147,6 +145,7 @@ usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_kcal.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_kcalcore.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_mail.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_microblog.desktop
+usr/share/kde4/apps/akonadi_kolabproxy_resource/akonadi_kolabproxy_resource.notifyrc
 usr/share/kde4/apps/akonadi_maildispatcher_agent/akonadi_maildispatcher_agent.notifyrc
 usr/share/kde4/apps/akonadi_newmailnotifier_agent/akonadi_newmailnotifier_agent.notifyrc
 usr/share/kde4/apps/kconf_update/newmailnotifier.upd
