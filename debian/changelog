@@ -1,6 +1,7 @@
 kdepim-runtime (4:4.13.3-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Reenable kolab integration. (Closes: #755678)
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 12:53:08 +0200
 

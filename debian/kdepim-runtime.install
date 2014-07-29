@@ -9,11 +9,11 @@ usr/bin/akonadi_invitations_agent
 usr/bin/akonadi_kabc_resource
 usr/bin/akonadi_kcal_resource
 usr/bin/akonadi_kdeaccounts_resource
-# usr/bin/akonadi_kolabproxy_resource
+usr/bin/akonadi_kolabproxy_resource
 usr/bin/akonadi_localbookmarks_resource
 usr/bin/akonadi_maildispatcher_agent
 usr/bin/akonadi_mailtransport_dummy_resource
-# usr/bin/akonadi_microblog_resource
+usr/bin/akonadi_microblog_resource
 usr/bin/akonadi_migration_agent
 usr/bin/akonadi_mixedmaildir_resource
 usr/bin/akonadi_newmailnotifier_agent
@@ -105,12 +105,12 @@ usr/share/akonadi/agents/kalarmdirresource.desktop
 usr/share/akonadi/agents/kalarmresource.desktop
 usr/share/akonadi/agents/kcalresource.desktop
 usr/share/akonadi/agents/kdeaccountsresource.desktop
-# usr/share/akonadi/agents/kolabproxyresource.desktop
+usr/share/akonadi/agents/kolabproxyresource.desktop
 usr/share/akonadi/agents/localbookmarksresource.desktop
 usr/share/akonadi/agents/maildirresource.desktop
 usr/share/akonadi/agents/maildispatcheragent.desktop
 usr/share/akonadi/agents/mboxresource.desktop
-# usr/share/akonadi/agents/microblog.desktop
+usr/share/akonadi/agents/microblog.desktop
 usr/share/akonadi/agents/migrationagent.desktop
 usr/share/akonadi/agents/mixedmaildirresource.desktop
 usr/share/akonadi/agents/mtdummyresource.desktop
@@ -125,13 +125,13 @@ usr/share/applications/kde4/accountwizard.desktop
 usr/share/applications/kde4/akonaditray.desktop
 usr/share/autostart/kaddressbookmigrator.desktop
 usr/share/icons/hicolor/*/apps/akonaditray.png
-# usr/share/icons/hicolor/*/apps/kolab.png
+usr/share/icons/hicolor/*/apps/kolab.png
 usr/share/icons/hicolor/*/apps/ox.png
 usr/share/icons/hicolor/scalable/apps/akonaditray.svgz
 usr/share/kde4/apps/akonadi/accountwizard/contacts/
 usr/share/kde4/apps/akonadi/accountwizard/ical/
 usr/share/kde4/apps/akonadi/accountwizard/imap/
-# usr/share/kde4/apps/akonadi/accountwizard/kolab/
+usr/share/kde4/apps/akonadi/accountwizard/kolab/
 usr/share/kde4/apps/akonadi/accountwizard/mailbox/
 usr/share/kde4/apps/akonadi/accountwizard/maildir/
 usr/share/kde4/apps/akonadi/accountwizard/pop3/
