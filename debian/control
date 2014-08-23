@@ -35,7 +35,7 @@ Package: kdepim-runtime
 Architecture: any
 Depends: akonadi-server (>= 1.8),
          kdepimlibs-kio-plugins,
-         libkolab0 (>= 0.5),
+         libkolab0 (>= 0.5.2),
          ${misc:Depends},
          ${shlibs:Depends}
 Replaces: akonadi-kde, libmaildir4
