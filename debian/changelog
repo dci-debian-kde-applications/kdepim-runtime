@@ -3,6 +3,7 @@ kdepim-runtime (4:4.14.0-1~) UNRELEASED; urgency=medium
   * New upstream release.
   * Update build dependencies.
   * Update kolab dependency version.
+  * Update install file.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 23 Aug 2014 18:26:24 +0200
 
