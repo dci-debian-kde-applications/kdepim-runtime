@@ -1,4 +1,4 @@
-kdepim-runtime (4:4.14.0-1~) UNRELEASED; urgency=medium
+kdepim-runtime (4:4.14.0-1) unstable; urgency=medium
 
   * New upstream release.
   * Update build dependencies.
@@ -6,7 +6,7 @@ kdepim-runtime (4:4.14.0-1~) UNRELEASED; urgency=medium
   * Update install file.
   * New patch: kolabproxy_unittest
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 23 Aug 2014 18:26:24 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 24 Aug 2014 01:16:43 +0200
 
 kdepim-runtime (4:4.13.3-1) unstable; urgency=medium
 
