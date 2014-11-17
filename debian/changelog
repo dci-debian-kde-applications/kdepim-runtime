@@ -1,3 +1,13 @@
+kdepim-runtime (4:4.14.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add debian/patches/tlscancelled.patch to fix issue with inability to
+    cancel connections using unknown SSL certificates (Closes: #750995)
+  * Bump minimum kdepimlibs5-dev build-depends version to 4:4.14.2-2~
+    in order to ensure the added enum is available
+
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 16 Nov 2014 22:14:26 -0500
+
 kdepim-runtime (4:4.14.2-1) unstable; urgency=medium
 
   * New upstream release (4.14.2).
