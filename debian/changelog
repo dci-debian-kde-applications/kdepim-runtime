@@ -1,9 +1,9 @@
-kdepim-runtime (4:4.14.2-3~) UNRELEASED; urgency=medium
+kdepim-runtime (4:4.14.2-3) unstable; urgency=medium
 
   * New patch: restart_akonadi.patch, restarts akonadi to complete kmail
     migration. (Closes: #727800) Thanks to Diane Trout
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 17 Jan 2015 09:51:43 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 17 Jan 2015 11:41:00 +0100
 
 kdepim-runtime (4:4.14.2-2) unstable; urgency=medium
 
