@@ -1,0 +1,86 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -98,8 +98,8 @@
+ find_package(AccountsQt 1.11 QUIET CONFIG)
+ set_package_properties(AccountsQt PROPERTIES DESCRIPTION "Qt bindings for accounts-sso" URL "https://code.google.com/p/accounts-sso/" TYPE OPTIONAL PURPOSE "Required to support AccountsQt in different resources")
+ 
+-find_package(SignOnQt 8.56 QUIET CONFIG)
+-set_package_properties(SignOnQt PROPERTIES DESCRIPTION "SignOn Qt bindings for accounts-sso" URL "https://code.google.com/p/accounts-sso/" TYPE OPTIONAL PURPOSE "Required to support SignOn in different resources")
++find_package(SignOnQt4 8.56 QUIET CONFIG)
++set_package_properties(SignOnQt4 PROPERTIES DESCRIPTION "SignOn Qt bindings for accounts-sso" URL "https://code.google.com/p/accounts-sso/" TYPE OPTIONAL PURPOSE "Required to support SignOn in different resources")
+ 
+ ############### Load the CTest options ###############
+ 
+--- a/resources/dav/resource/CMakeLists.txt
++++ b/resources/dav/resource/CMakeLists.txt
+@@ -55,7 +55,7 @@
+     urlconfigurationdialog.cpp
+   )
+ 
+-  if(${AccountsQt_FOUND} AND ${SignOnQt_FOUND})
++  if(${AccountsQt_FOUND} AND ${SignOnQt4_FOUND})
+     include_directories(${ACCOUNTSQT_INCLUDE_DIRS} ${SIGNONQT_INCLUDE_DIRS})
+     add_definitions(-DHAVE_ACCOUNTS)
+     set(davgroupwareresource_SRCS ../../shared/getcredentialsjob.cpp ${davgroupwareresource_SRCS})
+@@ -94,7 +94,7 @@
+                         ${KDEPIMLIBS_KABC_LIBS}
+                         ${KDEPIMLIBS_KCALCORE_LIBS})
+ 
+-  if(${AccountsQt_FOUND} AND ${SignOnQt_FOUND})
++  if(${AccountsQt_FOUND} AND ${SignOnQt4_FOUND})
+     target_link_libraries(akonadi_davgroupware_resource
+                         ${ACCOUNTSQT_LIBRARIES}
+                         ${SIGNONQT_LIBRARIES})
+--- a/resources/facebook/CMakeLists.txt
++++ b/resources/facebook/CMakeLists.txt
+@@ -1,7 +1,7 @@
+ project(facebookresource)
+ include_directories(${LibKFbAPI_INCLUDE_DIR})
+ include_directories(${QJSON_INCLUDE_DIR} ${qjson_INCLUDE_DIR})
+-if(${AccountsQt_FOUND} AND ${SignOnQt_FOUND})
++if(${AccountsQt_FOUND} AND ${SignOnQt4_FOUND})
+   include_directories(${ACCOUNTSQT_INCLUDE_DIRS} ${SIGNONQT_INCLUDE_DIRS})
+   add_definitions(-DHAVE_ACCOUNTS)
+   set(facebookresource_SRCS ../shared/getcredentialsjob.cpp)
+@@ -71,7 +71,7 @@
+   ${LibKFbAPI_LIBRARY}
+ )
+ 
+-if(${AccountsQt_FOUND} AND ${SignOnQt_FOUND})
++if(${AccountsQt_FOUND} AND ${SignOnQt4_FOUND})
+   target_link_libraries(akonadi_facebook_resource
+     ${ACCOUNTSQT_LIBRARIES}
+     ${SIGNONQT_LIBRARIES})
+--- a/resources/google/calendar/CMakeLists.txt
++++ b/resources/google/calendar/CMakeLists.txt
+@@ -62,7 +62,7 @@
+   ${LibKGAPI2_LIBRARY}
+ )
+ 
+-if(${AccountsQt_FOUND} AND ${SignOnQt_FOUND})
++if(${AccountsQt_FOUND} AND ${SignOnQt4_FOUND})
+   target_link_libraries(akonadi_googlecalendar_resource
+     ${ACCOUNTSQT_LIBRARIES}
+     ${SIGNONQT_LIBRARIES})
+--- a/resources/google/contacts/CMakeLists.txt
++++ b/resources/google/contacts/CMakeLists.txt
+@@ -49,7 +49,7 @@
+   ${LibKGAPI2_LIBRARY}
+ )
+ 
+-if(${AccountsQt_FOUND} AND ${SignOnQt_FOUND})
++if(${AccountsQt_FOUND} AND ${SignOnQt4_FOUND})
+   target_link_libraries(akonadi_googlecontacts_resource
+     ${ACCOUNTSQT_LIBRARIES}
+     ${SIGNONQT_LIBRARIES})
+--- a/resources/google/CMakeLists.txt
++++ b/resources/google/CMakeLists.txt
+@@ -4,7 +4,7 @@
+ add_definitions( -DQT_NO_CAST_TO_ASCII )
+ 
+ 
+-if(${AccountsQt_FOUND} AND ${SignOnQt_FOUND})
++if(${AccountsQt_FOUND} AND ${SignOnQt4_FOUND})
+   include_directories(${ACCOUNTSQT_INCLUDE_DIRS} ${SIGNONQT_INCLUDE_DIRS} ../)
+   add_definitions(-DHAVE_ACCOUNTS)
+   set(accounts_SRCS ../../shared/getcredentialsjob.cpp)
