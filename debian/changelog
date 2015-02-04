@@ -1,6 +1,7 @@
 kdepim-runtime (4:4.14.4-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release for kde-applications 
+  * Fix watchfile to new applications download address.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 04 Feb 2015 20:46:57 +0000
 
