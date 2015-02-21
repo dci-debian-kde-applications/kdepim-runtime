@@ -1,16 +1,10 @@
 kdepim-runtime (4:4.14.5-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Fix watch file. 
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 11:28:10 -0800
-
-kdepim-runtime (4:4.14.4-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream release for kde-applications
+  * Fix watch file.
   * Fix watchfile to new applications download address.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 04 Feb 2015 20:46:57 +0000
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 11:28:10 -0800
 
 kdepim-runtime (4:4.14.2-3) unstable; urgency=medium
 
@@ -312,7 +306,7 @@ kdepim-runtime (4:4.10.95-0ubuntu2) saucy; urgency=low
 
 kdepim-runtime (4:4.10.95-0ubuntu1) saucy; urgency=low
 
-  * New upstream RC release 
+  * New upstream RC release
     - drop kubuntu_access_control.diff and kubuntu_no_crash_without_kolab.diff
       again. Fixed upstream
 
@@ -348,11 +342,11 @@ kdepim-runtime (4:4.10.90-0ubuntu1) saucy; urgency=low
 
   [ Michał Zając ]
   * New upstream beta release
- 
+
   [ Howard Chan ]
-  * Removed 1 file and added 4 files to 
+  * Removed 1 file and added 4 files to
     kdepim-runtime.install
-  * Added 1 lintian warning to 
+  * Added 1 lintian warning to
     kdepim-runtime.lintian-overrides
 
  -- Howard Chan <smartboyhw@gmail.com>  Fri, 28 Jun 2013 18:10:39 +0100
@@ -363,7 +357,7 @@ kdepim-runtime (4:4.10.80-0ubuntu1) saucy; urgency=low
   * New upstream release
 
   [ Howard Chan ]
-  * Fixed the .install files 
+  * Fixed the .install files
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -630,7 +624,7 @@ kdepim-runtime (4:4.8.3-0ubuntu1) quantal; urgency=low
   * New upstream release
     - update kdepim-runtime.install
       (libnepomukdatamanagement-copy was renamed to kdepim-runtime-dms-copy)
-  * Switch boost build-dep to 1.49 
+  * Switch boost build-dep to 1.49
 
  -- Philip Muškovac <yofel@kubuntu.org>  Mon, 14 May 2012 11:30:55 +0200
 
@@ -648,7 +642,7 @@ kdepim-runtime (4:4.8.2a-0ubuntu1) precise; urgency=low
 
 kdepim-runtime (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 03 Mar 2012 18:27:36 +0100
 
@@ -1157,7 +1151,7 @@ kdepim-runtime (4:4.3.3-0ubuntu1) lucid; urgency=low
 kdepim-runtime (4:4.3.3-0ubuntu1) karmic; urgency=low
 
   * New upstream release:
-    - Bump build-depend versions 
+    - Bump build-depend versions
 
  -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Sat, 31 Oct 2009 16:43:57 +0100
 
