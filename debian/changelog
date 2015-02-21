@@ -1,6 +1,8 @@
 kdepim-runtime (4:4.14.5-1~) UNRELEASED; urgency=medium
 
   * Prepare Debian release.
+  * Remove upstream patch: restart_akonadi.patch
+  * Refresh patches.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Feb 2015 00:04:06 +0100
 

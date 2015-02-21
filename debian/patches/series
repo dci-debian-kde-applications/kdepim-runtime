@@ -2,4 +2,3 @@ hide_akonaditray.diff
 kubuntu_signonqt4.diff
 kolabproxy_unittest
 tlscancelled.patch
-restart_akonadi.patch
