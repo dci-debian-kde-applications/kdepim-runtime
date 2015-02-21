@@ -1,7 +1,6 @@
 usr/bin/accountwizard
 usr/bin/akonadi_birthdays_resource
 usr/bin/akonadi_davgroupware_resource
-usr/bin/akonadi_facebook_resource
 usr/bin/akonadi_googlecalendar_resource
 usr/bin/akonadi_googlecontacts_resource
 usr/bin/akonadi_icaldir_resource
@@ -10,6 +9,7 @@ usr/bin/akonadi_invitations_agent
 usr/bin/akonadi_kabc_resource
 usr/bin/akonadi_kcal_resource
 usr/bin/akonadi_kdeaccounts_resource
+usr/bin/akonadi_kolab_resource
 usr/bin/akonadi_kolabproxy_resource
 usr/bin/akonadi_localbookmarks_resource
 usr/bin/akonadi_maildispatcher_agent
@@ -45,7 +45,6 @@ usr/lib/kde4/akonadi_serializer_kcal.so
 usr/lib/kde4/akonadi_serializer_kcalcore.so
 usr/lib/kde4/akonadi_serializer_mail.so
 usr/lib/kde4/akonadi_serializer_microblog.so
-usr/lib/kde4/akonadi_serializer_socialnotification.so
 usr/lib/kde4/akonadi_vcard_resource.so
 usr/lib/kde4/imports/org/kde/BreadcrumbNavigationView.qml
 usr/lib/kde4/imports/org/kde/Dialog.qml
@@ -95,7 +94,6 @@ usr/share/akonadi/agents/akonotesresource.desktop
 usr/share/akonadi/agents/birthdaysresource.desktop
 usr/share/akonadi/agents/contactsresource.desktop
 usr/share/akonadi/agents/davgroupwareresource.desktop
-usr/share/akonadi/agents/facebookresource.desktop
 usr/share/akonadi/agents/googlecalendarresource.desktop
 usr/share/akonadi/agents/googlecontactsresource.desktop
 usr/share/akonadi/agents/icaldirresource.desktop
@@ -108,6 +106,7 @@ usr/share/akonadi/agents/kalarmresource.desktop
 usr/share/akonadi/agents/kcalresource.desktop
 usr/share/akonadi/agents/kdeaccountsresource.desktop
 usr/share/akonadi/agents/kolabproxyresource.desktop
+usr/share/akonadi/agents/kolabresource.desktop
 usr/share/akonadi/agents/localbookmarksresource.desktop
 usr/share/akonadi/agents/maildirresource.desktop
 usr/share/akonadi/agents/maildispatcheragent.desktop
@@ -126,7 +125,6 @@ usr/share/applications/kde4/accountwizard.desktop
 usr/share/applications/kde4/akonaditray.desktop
 usr/share/autostart/kaddressbookmigrator.desktop
 usr/share/icons/hicolor/*/apps/akonaditray.png
-usr/share/icons/hicolor/*/apps/facebookresource.png
 usr/share/icons/hicolor/*/apps/kolab.png
 usr/share/icons/hicolor/*/apps/ox.png
 usr/share/icons/hicolor/scalable/apps/akonaditray.svgz
@@ -138,6 +136,8 @@ usr/share/kde4/apps/akonadi/accountwizard/mailbox/
 usr/share/kde4/apps/akonadi/accountwizard/maildir/
 usr/share/kde4/apps/akonadi/accountwizard/pop3/
 usr/share/kde4/apps/akonadi/accountwizard/tine20/
+usr/share/kde4/apps/akonadi/accountwizard/vcard/
+usr/share/kde4/apps/akonadi/accountwizard/vcarddir/
 usr/share/kde4/apps/akonadi/firstrun/defaultaddressbook
 usr/share/kde4/apps/akonadi/firstrun/defaultcalendar
 usr/share/kde4/apps/akonadi/firstrun/defaultnotebook
@@ -149,8 +149,6 @@ usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_kcal.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_kcalcore.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_mail.desktop
 usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_microblog.desktop
-usr/share/kde4/apps/akonadi/plugins/serializer/akonadi_serializer_socialnotification.desktop
-usr/share/kde4/apps/akonadi_facebook_resource/akonadi_facebook_resource.notifyrc
 usr/share/kde4/apps/akonadi_kolabproxy_resource/akonadi_kolabproxy_resource.notifyrc
 usr/share/kde4/apps/akonadi_maildispatcher_agent/akonadi_maildispatcher_agent.notifyrc
 usr/share/kde4/apps/akonadi_newmailnotifier_agent/akonadi_newmailnotifier_agent.notifyrc
@@ -178,12 +176,3 @@ usr/share/kde4/services/kresources/kcal/akonadi.desktop
 usr/share/kde4/servicetypes/davgroupwareprovider.desktop
 usr/share/mime/packages/accountwizard-mime.xml
 usr/share/mime/packages/kdepim-mime.xml
-usr/share/mime/packages/x-vnd.akonadi.socialnotification.xml
-usr/bin/akonadi_kolab_resource
-usr/share/akonadi/agents/kolabresource.desktop
-usr/share/kde4/apps/akonadi/accountwizard/vcard/vcardwizard.desktop
-usr/share/kde4/apps/akonadi/accountwizard/vcard/vcardwizard.es
-usr/share/kde4/apps/akonadi/accountwizard/vcard/vcardwizard.ui
-usr/share/kde4/apps/akonadi/accountwizard/vcarddir/vcarddirwizard.desktop
-usr/share/kde4/apps/akonadi/accountwizard/vcarddir/vcarddirwizard.es
-usr/share/kde4/apps/akonadi/accountwizard/vcarddir/vcarddirwizard.ui

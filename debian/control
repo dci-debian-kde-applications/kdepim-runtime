@@ -1,8 +1,7 @@
 Source: kdepim-runtime
 Section: x11
 Priority: optional
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
@@ -11,12 +10,12 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
 Build-Depends: cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.14.2),
-               kdepimlibs5-dev (>= 4:4.14.2),
-               libakonadi-dev (>= 1.12),
-               libboost1.55-dev (>= 1.40.0-2),
+               kdelibs5-dev (>= 4:4.12),
+               kdepimlibs5-dev (>= 4:4.14.2-2~),
+               libakonadi-dev (>= 1.12.90),
+               libboost-dev (>= 1.40.0-2),
                libkgapi-dev (>= 2.2.0),
-               libkolab-dev (>= 0.5),
+               libkolab-dev (>= 0.5.2),
                libkolabxml-dev (>= 1.0),
                libqjson-dev,
                libqtwebkit-dev,
@@ -26,23 +25,18 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.12),
                shared-mime-info (>= 0.30),
                xsltproc,
-               libaccounts-qt-dev,
-               libsignon-qt-dev,
-               libkfbapi-dev,
-               libsasl2-dev,
+               libsasl2-dev
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://pim.kde.org/
-X-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdepim-runtime.git
-X-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdepim-runtime.git
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kdepim-runtime
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kdepim-runtime
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdepim-runtime.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdepim-runtime.git
 
 Package: kdepim-runtime
 Architecture: any
 Depends: akonadi-server (>= 1.8),
          kdepimlibs-kio-plugins,
-         libkolab0 (>= 0.4.2-7~),
+         libkolab0 (>= 0.5.2),
          ${misc:Depends},
          ${shlibs:Depends}
 Replaces: akonadi-kde, libmaildir4
