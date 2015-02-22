@@ -1,11 +1,11 @@
-kdepim-runtime (4:4.14.5-1~) UNRELEASED; urgency=medium
+kdepim-runtime (4:4.14.5-1) experimental; urgency=medium
 
   * Prepare Debian release.
   * Remove upstream patch: restart_akonadi.patch
   * Refresh patches.
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Feb 2015 00:04:06 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Feb 2015 10:37:06 +0100
 
 kdepim-runtime (4:4.14.5-0ubuntu1) vivid; urgency=medium
 
