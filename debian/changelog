@@ -1,10 +1,10 @@
-kdepim-runtime (4:4.14.6-1~) UNRELEASED; urgency=medium
+kdepim-runtime (4:4.14.6-1) experimental; urgency=medium
 
   * New upstream release (4.14.6).
   * Bump kdepimlibs build dep version, due to
     Akonadi::MessageFlags::copyMessageFlags
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:22:19 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:02 +0200
 
 kdepim-runtime (4:4.14.6-0ubuntu1) vivid; urgency=medium
 
