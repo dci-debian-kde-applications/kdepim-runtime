@@ -146,6 +146,7 @@ usr/share/kde4/apps/akonadi/accountwizard/vcard/vcardwizard.ui
 usr/share/kde4/apps/akonadi/accountwizard/vcarddir/vcarddirwizard.desktop
 usr/share/kde4/apps/akonadi/accountwizard/vcarddir/vcarddirwizard.es
 usr/share/kde4/apps/akonadi/accountwizard/vcarddir/vcarddirwizard.ui
+usr/share/kde4/apps/akonadi/firstrun/birthdaycalendar
 usr/share/kde4/apps/akonadi/firstrun/defaultaddressbook
 usr/share/kde4/apps/akonadi/firstrun/defaultcalendar
 usr/share/kde4/apps/akonadi/firstrun/defaultnotebook
