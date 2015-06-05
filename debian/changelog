@@ -1,8 +1,12 @@
-kdepim-runtime (4:4.14.8-0ubuntu1) UNRELEASED; urgency=medium
+kdepim-runtime (4:4.14.9-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 15 May 2015 17:33:31 -0700
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 01:19:46 +0200
 
 kdepim-runtime (4:4.14.7-0ubuntu1) UNRELEASED; urgency=medium
 
