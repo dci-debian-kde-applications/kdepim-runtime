@@ -1,4 +1,4 @@
-kdepim-runtime (4:4.14.10-0ubuntu1) UNRELEASED; urgency=medium
+kdepim-runtime (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release.
@@ -9,6 +9,9 @@ kdepim-runtime (4:4.14.10-0ubuntu1) UNRELEASED; urgency=medium
   [ José Manuel Santamaría Lema ]
   * Build depend on default boost libraries, this makes the package buildable
     in wily.
+
+  [ Harald Sitter ]
+  * KDE Frameworks5  port
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 01:19:46 +0200
 
