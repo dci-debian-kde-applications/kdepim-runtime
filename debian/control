@@ -35,10 +35,12 @@ Build-Depends: cmake,
                libkf5pimtextedit-dev,
                libkf5syndication-dev,
                libqt5webkit5-dev,
+               libqt5xmlpatterns5-dev,
                libsasl2-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev,
+               qtquick1-5-dev,
                shared-mime-info (>= 0.30),
                xsltproc
 Standards-Version: 3.9.5
