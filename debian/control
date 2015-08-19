@@ -45,10 +45,10 @@ Build-Depends: cmake,
                qtquick1-5-dev,
                shared-mime-info (>= 0.30),
                xsltproc
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://pim.kde.org/
-X-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdepim-runtime.git
+X-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-sc/kdepim-runtime.git
 X-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdepim-runtime.git
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kdepim-runtime
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kdepim-runtime
