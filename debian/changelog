@@ -1,4 +1,4 @@
-kdepim-runtime (4:4.14.10-1~) UNRELEASED; urgency=medium
+kdepim-runtime (4:4.14.10-1) unstable; urgency=medium
 
   * New upstream release (4.14.7).
   * New upstream release (4.14.8).
@@ -8,7 +8,7 @@ kdepim-runtime (4:4.14.10-1~) UNRELEASED; urgency=medium
   * New upstream patch: upstream_silence_overloaded_virtual_warning
   * Add libsoprano-dev build dep.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:13:57 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 16:29:30 +0200
 
 kdepim-runtime (4:4.14.6-1) experimental; urgency=medium
 
