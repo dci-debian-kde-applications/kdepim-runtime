@@ -6,6 +6,7 @@ kdepim-runtime (4:4.14.10-1~) UNRELEASED; urgency=medium
   * New upstream release (4.14.10).
   * New upstream patch: upstream_dont_trigger_overloaded-virtual_warning
   * New upstream patch: upstream_silence_overloaded_virtual_warning
+  * Add libsoprano-dev build dep.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:13:57 +0200
 
