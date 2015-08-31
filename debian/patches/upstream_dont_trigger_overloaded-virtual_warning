@@ -1,0 +1,18 @@
+commit 06691e5b34e077e0af53c5278c150048d8a31636
+Author: Sergio Martins <iamsergio@gmail.com>
+Date:   Sun May 3 12:08:51 2015 +0100
+
+    Don't trigger -Woverloaded-virtual warning
+
+Index: kdepim-runtime/resources/google/calendar/calendarresource.h
+===================================================================
+--- kdepim-runtime.orig/resources/google/calendar/calendarresource.h	2015-08-31 13:29:03.392877199 +0200
++++ kdepim-runtime/resources/google/calendar/calendarresource.h	2015-08-31 13:29:30.159804652 +0200
+@@ -31,6 +31,7 @@
+     ~CalendarResource();
+ 
+   public:
++    using GoogleResource::collectionChanged; // So we don't trigger -Woverloaded-virtual
+     virtual GoogleSettings *settings() const;
+     virtual QList< QUrl > scopes() const;
+ 
