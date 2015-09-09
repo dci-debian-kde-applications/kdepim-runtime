@@ -1,6 +1,2 @@
-hide_akonaditray.diff
-kubuntu_signonqt4.diff
 kolabproxy_unittest
 tlscancelled.patch
-upstream_silence_overloaded_virtual_warning
-upstream_dont_trigger_overloaded-virtual_warning
