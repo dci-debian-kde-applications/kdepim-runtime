@@ -1,3 +1,9 @@
+kdepim-runtime (4:15.08.0-0ubuntu2) wily; urgency=medium
+
+  * Add back libkolab and libkolabxml build-deps
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Sep 2015 12:14:27 +0100
+
 kdepim-runtime (4:15.08.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release
