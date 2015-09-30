@@ -1,6 +1,7 @@
 kdepim-runtime (4:15.08.1-0ubuntu3) UNRELEASED; urgency=medium
 
   * In autopkgtest start kdeinit5 instead of kdeinit4
+  * Add kubuntu_disable_flaky_test.patch to disable a falky upstream test
 
  -- Harald Sitter <sitter@kde.org>  Wed, 30 Sep 2015 12:16:17 +0200
 
