@@ -1,3 +1,9 @@
+kdepim-runtime (4:15.08.1-0ubuntu3) UNRELEASED; urgency=medium
+
+  * In autopkgtest start kdeinit5 instead of kdeinit4
+
+ -- Harald Sitter <sitter@kde.org>  Wed, 30 Sep 2015 12:16:17 +0200
+
 kdepim-runtime (4:15.08.1-0ubuntu2) wily; urgency=medium
 
   * No change rebuild against newer kdepimlibs
