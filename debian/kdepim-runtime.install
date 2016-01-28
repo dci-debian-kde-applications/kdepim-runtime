@@ -33,9 +33,6 @@ usr/lib/*/qt5/plugins/akonadi_serializer_contactgroup.so
 usr/lib/*/qt5/plugins/akonadi_serializer_kalarm.so
 usr/lib/*/qt5/plugins/akonadi_serializer_kcalcore.so
 usr/lib/*/qt5/plugins/akonadi_serializer_mail.so
-usr/lib/*/qt5/plugins/kcm_akonadi.so
-usr/lib/*/qt5/plugins/kcm_akonadi_resources.so
-usr/lib/*/qt5/plugins/kcm_akonadi_server.so
 usr/lib/*/qt5/plugins/kf5/kio/akonadi.so
 usr/share/akonadi/accountwizard/contacts/contactswizard.desktop
 usr/share/akonadi/accountwizard/contacts/contactswizard.es
@@ -112,8 +109,5 @@ usr/share/kservices5/akonadi/davgroupware-providers/sogo.desktop
 usr/share/kservices5/akonadi/davgroupware-providers/yahoo.desktop
 usr/share/kservices5/akonadi/davgroupware-providers/zarafa.desktop
 usr/share/kservices5/akonadi/davgroupware-providers/zimbra.desktop
-usr/share/kservices5/kcm_akonadi.desktop
-usr/share/kservices5/kcm_akonadi_resources.desktop
-usr/share/kservices5/kcm_akonadi_server.desktop
 usr/share/kservicetypes5/davgroupwareprovider.desktop
 usr/share/mime/packages/kdepim-mime.xml
