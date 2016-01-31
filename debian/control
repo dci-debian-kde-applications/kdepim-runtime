@@ -71,17 +71,3 @@ Description: runtime components for Akonadi KDE
  The kres-bridges is also parts of this package.
  .
  This package is part of the kdepim-runtime module.
-
-Package: kdepim-runtime-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Replaces: kdepim-dbg (<< 4:4.4)
-Breaks: kdepim-dbg (<< 4:4.4)
-Depends: kdepim-runtime (= ${binary:Version}), ${misc:Depends}
-Description: debugging files for Akonadi KDE runtime components
- This package contains debugging symbols associated with kdepim-runtime.
- They will automatically be used by gdb for debugging issues related to
- components of kdepim-runtime.
- .
- This package is part of the kdepim-runtime module.
