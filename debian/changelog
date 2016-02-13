@@ -12,6 +12,12 @@ kdepim-runtime (4:16.04.1-1~1.gbp2aab85) UNRELEASED; urgency=medium
 
  -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:42:19 +0200
 
+kdepim-runtime (4:15.12.2-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.12.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:43:23 +0100
+
 kdepim-runtime (4:15.12.1-2) experimental; urgency=medium
 
   * Bump build dependencies to match packages versions, and not
