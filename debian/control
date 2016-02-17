@@ -7,53 +7,54 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Modestas Vainius <modax@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules,
-               kio-dev,
-               kross-dev,
-               libboost-dev,
-               libkf5akonadi-dev,
-               libkf5akonadicalendar-dev,
-               libkf5akonadicontact-dev,
-               libkf5akonadimime-dev,
-               libkf5akonadinotes-dev,
-               libkf5akonadisocialutils-dev,
-               libkf5alarmcalendar-dev,
-               libkf5calendarcore-dev,
-               libkf5calendarutils-dev,
-               libkf5codecs-dev,
-               libkf5config-dev,
-               libkf5contacts-dev,
-               libkf5gapi-dev,
-               libkf5identitymanagement-dev,
-               libkf5imap-dev,
-               libkf5itemmodels-dev,
-               libkf5kdelibs4support-dev,
-               libkf5mailtransport-dev,
-               libkf5mbox-dev,
-               libkf5mime-dev,
-               libkf5notifyconfig-dev,
-               libkf5pimtextedit-dev,
-               libkf5syndication-dev,
-               libkolab-dev,
-               libkolabxml-dev,
-               libqt5webkit5-dev,
-               libqt5xmlpatterns5-dev,
+               extra-cmake-modules (>= 5.16.0~),
+               kio-dev (>= 5.16.0~),
+               kross-dev (>= 5.16.0~),
+               libboost-dev (>= 1.40.0-2),
+               libkf5akonadi-dev (>= 4:15.12.1~),
+               libkf5akonadicalendar-dev (>= 15.12~),
+               libkf5akonadicontact-dev (>= 4:15.12~),
+               libkf5akonadimime-dev (>= 4:15.12~),
+               libkf5akonadinotes-dev (>= 4:15.12~),
+               libkf5akonadiserver-dev (>= 15.12.1~),
+               libkf5akonadisocialutils-dev (>= 4:15.12~),
+               libkf5alarmcalendar-dev (>= 15.12~),
+               libkf5calendarcore-dev (>= 4:15.12~),
+               libkf5calendarutils-dev (>= 15.12~),
+               libkf5codecs-dev (>= 5.16.0~),
+               libkf5config-dev (>= 5.16.0~),
+               libkf5configwidgets-dev (>= 5.16.0~),
+               libkf5contacts-dev (>= 15.12~),
+               libkf5gapi-dev (>= 5.1.0~),
+               libkf5identitymanagement-dev (>= 15.12~),
+               libkf5imap-dev (>= 15.12~),
+               libkf5itemmodels-dev (>= 5.16.0~),
+               libkf5kcmutils-dev (>= 5.12.0~),
+               libkf5kdelibs4support-dev (>= 5.16.0~),
+               libkf5mailtransport-dev (>= 15.12~),
+               libkf5mbox-dev (>= 15.12~),
+               libkf5mime-dev (>= 15.12~),
+               libkf5notifyconfig-dev (>= 5.16.0~),
+               libkf5pimtextedit-dev (>= 15.12~),
+               libkf5syndication-dev (>= 15.12~),
+               libkf5textwidgets-dev (>= 5.16.0~),
+               libkf5windowsystem-dev (>= 5.16.0~),
+               libqt5webkit5-dev (>= 5.4.0~),
+               libqt5xmlpatterns5-dev (>= 5.4.0~),
                libsasl2-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev,
-               qtquick1-5-dev,
+               qtbase5-dev (>= 5.4.0~),
+               qtdeclarative5-dev (>= 5.4.0~),
+               qtquick1-5-dev (>= 5.4.0~),
                shared-mime-info (>= 0.30),
                xsltproc
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: http://pim.kde.org/
-X-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-sc/kdepim-runtime.git
-X-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdepim-runtime.git
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kdepim-runtime
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kdepim-runtime
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kdepim-runtime.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kdepim-runtime.git
 
 Package: kdepim-runtime
 Architecture: any
@@ -68,19 +69,5 @@ Description: runtime components for Akonadi KDE
  libraries.
  Any package that uses Akonadi should probably pull this in as a dependency.
  The kres-bridges is also parts of this package.
- .
- This package is part of the kdepim-runtime module.
-
-Package: kdepim-runtime-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Replaces: kdepim-dbg (<< 4:4.4)
-Breaks: kdepim-dbg (<< 4:4.4)
-Depends: kdepim-runtime (= ${binary:Version}), ${misc:Depends}
-Description: debugging files for Akonadi KDE runtime components
- This package contains debugging symbols associated with kdepim-runtime.
- They will automatically be used by gdb for debugging issues related to
- components of kdepim-runtime.
  .
  This package is part of the kdepim-runtime module.

@@ -1,14 +1,47 @@
-kdepim-runtime (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kdepim-runtime (4:15.12.1-2ubuntu1) UNRELEASED; urgency=medium
 
+  * Merged with Debian
   * New upstream release 
 
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 13:40:41 +0100
+ -- Clive Johnston <clivejo@aol.com>  Wed, 17 Feb 2016 11:33:25 +0000
+
+kdepim-runtime (4:15.12.1-2) experimental; urgency=medium
+
+  * Bump build dependencies to match packages versions, and not
+    libraries versions.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Feb 2016 19:01:58 +0100
+
+kdepim-runtime (4:15.12.1-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+  * New upstream release (15.12.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:22:16 +0100
+
+kdepim-runtime (4:15.08.3-1) experimental; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:38:36 +0100
+
+kdepim-runtime (4:15.08.2-1) experimental; urgency=medium
+
+  * New upstream release (15.08.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Oct 2015 08:06:49 +0200
 
 kdepim-runtime (4:15.08.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sun, 11 Oct 2015 07:25:50 -0700
+
+kdepim-runtime (4:15.08.1-1) experimental; urgency=medium
+
+  * New upstream release (15.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 03:16:18 +0200
 
 kdepim-runtime (4:15.08.1-0ubuntu3) wily; urgency=medium
 
@@ -28,6 +61,12 @@ kdepim-runtime (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 19:25:07 +0100
+
+kdepim-runtime (4:15.08.0-1) experimental; urgency=medium
+
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 13:19:24 +0200
 
 kdepim-runtime (4:15.08.0-0ubuntu2) wily; urgency=medium
 
@@ -61,6 +100,27 @@ kdepim-runtime (4:15.07.90-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Aug 2015 17:37:19 +0100
 
+kdepim-runtime (4:4.14.10-2) unstable; urgency=medium
+
+  * Team upload.
+  * Remove hard coded Depends on libkolab0. Shlibs handles this just fine and
+    the hard carded Depends made kdepim-runtime uninstallable due to the
+    transition to libkolab0v5 (Closes: #797632)
+
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 31 Aug 2015 22:29:35 -0400
+
+kdepim-runtime (4:4.14.10-1) unstable; urgency=medium
+
+  * New upstream release (4.14.7).
+  * New upstream release (4.14.8).
+  * New upstream release (4.14.9).
+  * New upstream release (4.14.10).
+  * New upstream patch: upstream_dont_trigger_overloaded-virtual_warning
+  * New upstream patch: upstream_silence_overloaded_virtual_warning
+  * Add libsoprano-dev build dep.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 16:29:30 +0200
+
 kdepim-runtime (4:4.14.8-0ubuntu2) UNRELEASED; urgency=medium
 
   * Vivid backport.
@@ -75,26 +135,60 @@ kdepim-runtime (4:4.14.7-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 16 Apr 2015 06:13:54 -0700
 
+kdepim-runtime (4:4.14.6-1) experimental; urgency=medium
+
+  * New upstream release (4.14.6).
+  * Bump kdepimlibs build dep version, due to
+    Akonadi::MessageFlags::copyMessageFlags
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:02 +0200
+
 kdepim-runtime (4:4.14.6-0ubuntu1) vivid; urgency=medium
 
-  * New upstream release 
+  * New upstream release
   * Update watch file
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 15:05:23 -0700
 
+kdepim-runtime (4:4.14.5-1) experimental; urgency=medium
+
+  * Prepare Debian release.
+  * Remove upstream patch: restart_akonadi.patch
+  * Refresh patches.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Feb 2015 10:37:06 +0100
+
 kdepim-runtime (4:4.14.5-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Fix watch file. 
+  * Fix watch file.
+  * Fix watchfile to new applications download address.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 11:28:10 -0800
 
-kdepim-runtime (4:4.14.4-0ubuntu1) UNRELEASED; urgency=medium
+kdepim-runtime (4:4.14.2-3) unstable; urgency=medium
 
-  * New upstream release for kde-applications 
-  * Fix watchfile to new applications download address.
+  * New patch: restart_akonadi.patch, restarts akonadi to complete kmail
+    migration. (Closes: #727800) Thanks to Diane Trout
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 04 Feb 2015 20:46:57 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 17 Jan 2015 11:41:00 +0100
+
+kdepim-runtime (4:4.14.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add debian/patches/tlscancelled.patch to fix issue with inability to
+    cancel connections using unknown SSL certificates (Closes: #750995)
+  * Bump minimum kdepimlibs5-dev build-depends version to 4:4.14.2-2~
+    in order to ensure the added enum is available
+
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 16 Nov 2014 22:14:26 -0500
+
+kdepim-runtime (4:4.14.2-1) unstable; urgency=medium
+
+  * New upstream release (4.14.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 20 Oct 2014 17:13:01 +0200
 
 kdepim-runtime (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
@@ -102,11 +196,27 @@ kdepim-runtime (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 14:02:28 -0700
 
+kdepim-runtime (4:4.14.1-1) unstable; urgency=medium
+
+  * New upstream release (4.14.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 19 Sep 2014 12:08:47 +0200
+
 kdepim-runtime (4:4.14.1-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 16:48:11 +0200
+
+kdepim-runtime (4:4.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update build dependencies.
+  * Update kolab dependency version.
+  * Update install file.
+  * New patch: kolabproxy_unittest
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 24 Aug 2014 01:16:43 +0200
 
 kdepim-runtime (4:4.14.0-0ubuntu1) utopic; urgency=medium
 
@@ -142,6 +252,15 @@ kdepim-runtime (4:4.13.90-0ubuntu1) utopic; urgency=medium
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 24 Jul 2014 22:59:25 +0200
 
+kdepim-runtime (4:4.13.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Reenable kolab integration. (Closes: #755678)
+  * Update install file.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 31 Jul 2014 14:21:31 +0200
+
 kdepim-runtime (4:4.13.2-0ubuntu1) utopic; urgency=medium
 
   * new upstream release
@@ -156,6 +275,9 @@ kdepim-runtime (4:4.13.1-1ubuntu1) utopic; urgency=medium
     - Add libsignon-qt-dev to Build depends
     - Add libaccounts-qt-dev to Build Depends
 
+  [ Jonathan Riddell ]
+  * Add ~ to build-dep version of libsignon to allow for backports
+
  -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 21 May 2014 18:36:19 +0200
 
 kdepim-runtime (4:4.13.1-1) experimental; urgency=medium
@@ -166,12 +288,6 @@ kdepim-runtime (4:4.13.1-1) experimental; urgency=medium
   * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 20 May 2014 11:13:13 +0200
-
-kdepim-runtime (4:4.13.0-0ubuntu2) UNRELEASED; urgency=medium
-
-  * Add ~ to build-dep version of libsignon to allow for backports
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 25 Apr 2014 13:34:42 +0100
 
 kdepim-runtime (4:4.13.0-0ubuntu1) trusty; urgency=medium
 
@@ -351,7 +467,7 @@ kdepim-runtime (4:4.10.95-0ubuntu2) saucy; urgency=low
 
 kdepim-runtime (4:4.10.95-0ubuntu1) saucy; urgency=low
 
-  * New upstream RC release 
+  * New upstream RC release
     - drop kubuntu_access_control.diff and kubuntu_no_crash_without_kolab.diff
       again. Fixed upstream
 
@@ -387,11 +503,11 @@ kdepim-runtime (4:4.10.90-0ubuntu1) saucy; urgency=low
 
   [ Michał Zając ]
   * New upstream beta release
- 
+
   [ Howard Chan ]
-  * Removed 1 file and added 4 files to 
+  * Removed 1 file and added 4 files to
     kdepim-runtime.install
-  * Added 1 lintian warning to 
+  * Added 1 lintian warning to
     kdepim-runtime.lintian-overrides
 
  -- Howard Chan <smartboyhw@gmail.com>  Fri, 28 Jun 2013 18:10:39 +0100
@@ -402,7 +518,7 @@ kdepim-runtime (4:4.10.80-0ubuntu1) saucy; urgency=low
   * New upstream release
 
   [ Howard Chan ]
-  * Fixed the .install files 
+  * Fixed the .install files
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -669,7 +785,7 @@ kdepim-runtime (4:4.8.3-0ubuntu1) quantal; urgency=low
   * New upstream release
     - update kdepim-runtime.install
       (libnepomukdatamanagement-copy was renamed to kdepim-runtime-dms-copy)
-  * Switch boost build-dep to 1.49 
+  * Switch boost build-dep to 1.49
 
  -- Philip Muškovac <yofel@kubuntu.org>  Mon, 14 May 2012 11:30:55 +0200
 
@@ -687,7 +803,7 @@ kdepim-runtime (4:4.8.2a-0ubuntu1) precise; urgency=low
 
 kdepim-runtime (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 03 Mar 2012 18:27:36 +0100
 
@@ -1196,7 +1312,7 @@ kdepim-runtime (4:4.3.3-0ubuntu1) lucid; urgency=low
 kdepim-runtime (4:4.3.3-0ubuntu1) karmic; urgency=low
 
   * New upstream release:
-    - Bump build-depend versions 
+    - Bump build-depend versions
 
  -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Sat, 31 Oct 2009 16:43:57 +0100
 
@@ -1307,3 +1423,15 @@ kdepim-runtime (4:4.2.95-0ubuntu1) karmic; urgency=low
 
  -- Jonathan Thomas <echidnaman@kubuntu.org>  Sat, 27 Jun 2009 13:37:43 -0400
 
+kdepim-runtime (4.2.96-2) experimental; urgency=low
+
+  * Add akonadi-kde Replaces to kdepim-runtime: akonadi_serializer_bookmark.so
+    is also in akonadi-kde package.
+
+ -- Fathi Boudra <fabo@debian.org>  Wed, 15 Jul 2009 09:24:01 +0200
+
+kdepim-runtime (4.2.96-1) experimental; urgency=low
+
+  * Split out at source level from kdepim.
+
+ -- Sune Vuorela <debian@pusling.com>  Sun, 12 Jul 2009 11:31:53 +0000

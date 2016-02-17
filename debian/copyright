@@ -1,166 +1,450 @@
-This package was debianized by Sune Vuorela <debian@pusling.com> on
-Sun, 12 Jul 2009 11:31:53 +0000.
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kdepim-runtime
+Source: https://quickgit.kde.org/?p=kdepim-runtime.git
 
-It was downloaded from <ftp://ktown.kde.org>
+Files: *
+Copyright: 2008, Bertjan Broeksema <b.broeksema@kdemail.org>
+           2008-2009, Bertjan Broeksema <broeksema@kde.org>
+           2013-2014, Christian Mollekopf <mollekopf@kolabsys.com>
+           2009, Constantin Berzan <exit3219@gmail.com>
+           2003, Cornelius Schumacher <schumacher@kde.org>
+           2013-2015, Daniel Vrátil <dvratil@redhat.com>
+           2009-2014, David Jarvie <djarvie@kde.org>
+           2008, Ingo Klöcker <kloecker@kde.org>
+           2009, Jonathan Armond <jon.armond@gmail.com>
+           2008-2011, Kevin Krammer <kevin.krammer@gmx.at>
+           2009, Kevin Ottens <ervin@kde.org>
+           2010, Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2010-2014, Klarälvdalens Datakonsult AB
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
+           2009-2015, Laurent Montel <montel@kde.org>
+           2010, Leo Franchi <lfranchi@kde.org>
+           2001-2003, Marc Mutz <mutz@kde.org>
+           2012, Marco Nelles <marco.nelles@credativ.com>
+           2008, Omat Holding B.V <info@omat.nl>
+           2008, Omat Holding B.V <tomalbers@kde.nl>
+           2014, Sandro Knauß <knauss@kolabsys.com>
+           2009, Sebastian Sauer <sebsauer@kdab.com>
+           2009, Sebastian Sauer <sebsauer@kdab.net>
+           2010, Stephen Kelly <steveire@gmail.com>
+           2012, Sérgio Martins <iamsergio@gmail.com>
+           2006-2010, Till Adam <adam@kde.org>
+           2007-2010, Tobias Koenig <tokoe@kde.org>
+           2006-2011, Volker Krause <vkrause@kde.org>
+License: LGPL-2+
 
-Upstream Authors:
+Files: COPYING
+       akonadi-version.h.cmake
+       kdepim-runtime-version.h.cmake
+       resources/dav/COPYING
+       resources/dav/common/davcollection.cpp
+       resources/dav/common/davcollection.h
+       resources/dav/common/davcollectiondeletejob.cpp
+       resources/dav/common/davcollectiondeletejob.h
+       resources/dav/common/davcollectionmodifyjob.cpp
+       resources/dav/common/davcollectionmodifyjob.h
+       resources/dav/common/davcollectionsfetchjob.cpp
+       resources/dav/common/davcollectionsfetchjob.h
+       resources/dav/common/davcollectionsmultifetchjob.cpp
+       resources/dav/common/davcollectionsmultifetchjob.h
+       resources/dav/common/davitem.cpp
+       resources/dav/common/davitem.h
+       resources/dav/common/davitemcreatejob.cpp
+       resources/dav/common/davitemcreatejob.h
+       resources/dav/common/davitemdeletejob.cpp
+       resources/dav/common/davitemdeletejob.h
+       resources/dav/common/davitemfetchjob.cpp
+       resources/dav/common/davitemfetchjob.h
+       resources/dav/common/davitemmodifyjob.cpp
+       resources/dav/common/davitemmodifyjob.h
+       resources/dav/common/davitemsfetchjob.cpp
+       resources/dav/common/davitemsfetchjob.h
+       resources/dav/common/davitemslistjob.cpp
+       resources/dav/common/davitemslistjob.h
+       resources/dav/common/davjobbase.cpp
+       resources/dav/common/davjobbase.h
+       resources/dav/common/davmanager.cpp
+       resources/dav/common/davmanager.h
+       resources/dav/common/davmultigetprotocol.cpp
+       resources/dav/common/davmultigetprotocol.h
+       resources/dav/common/davprincipalhomesetsfetchjob.cpp
+       resources/dav/common/davprincipalhomesetsfetchjob.h
+       resources/dav/common/davprincipalsearchjob.cpp
+       resources/dav/common/davprincipalsearchjob.h
+       resources/dav/common/davprotocolbase.cpp
+       resources/dav/common/davprotocolbase.h
+       resources/dav/common/davutils.cpp
+       resources/dav/common/davutils.h
+       resources/dav/common/etagcache.cpp
+       resources/dav/common/etagcache.h
+       resources/dav/protocols/caldavprotocol.cpp
+       resources/dav/protocols/caldavprotocol.h
+       resources/dav/protocols/carddavprotocol.cpp
+       resources/dav/protocols/carddavprotocol.h
+       resources/dav/protocols/groupdavprotocol.cpp
+       resources/dav/protocols/groupdavprotocol.h
+       resources/dav/resource/configdialog.cpp
+       resources/dav/resource/configdialog.h
+       resources/dav/resource/davfreebusyhandler.cpp
+       resources/dav/resource/davfreebusyhandler.h
+       resources/dav/resource/davgroupwareresource.cpp
+       resources/dav/resource/davgroupwareresource.h
+       resources/dav/resource/davprotocolattribute.cpp
+       resources/dav/resource/davprotocolattribute.h
+       resources/dav/resource/searchdialog.cpp
+       resources/dav/resource/searchdialog.h
+       resources/dav/resource/settings.cpp
+       resources/dav/resource/settings.h
+       resources/dav/resource/setupwizard.cpp
+       resources/dav/resource/setupwizard.h
+       resources/dav/resource/urlconfigurationdialog.cpp
+       resources/dav/resource/urlconfigurationdialog.h
+       resources/gmail/gmailresource.cpp
+       resources/gmail/gmailresource.h
+       resources/gmail/gmailretrievecollectionstask.cpp
+       resources/gmail/gmailretrievecollectionstask.h
+       resources/gmail/gmailretrieveitemstask.cpp
+       resources/gmail/gmailretrieveitemstask.h
+       resources/gmail/gmailsettings.h
+       resources/google/common/googleaccountmanager.cpp
+       resources/google/common/googleaccountmanager.h
+       resources/imap/autotests/dummypasswordrequester.cpp
+       resources/imap/autotests/dummypasswordrequester.h
+       resources/imap/autotests/imaptestbase.cpp
+       resources/imap/autotests/imaptestbase.h
+       resources/imap/autotests/testaddcollectiontask.cpp
+       resources/imap/autotests/testadditemtask.cpp
+       resources/imap/autotests/testchangecollectiontask.cpp
+       resources/imap/autotests/testchangeitemtask.cpp
+       resources/imap/autotests/testexpungecollectiontask.cpp
+       resources/imap/autotests/testmovecollectiontask.cpp
+       resources/imap/autotests/testmoveitemstask.cpp
+       resources/imap/autotests/testremovecollectionrecursivetask.cpp
+       resources/imap/autotests/testresourcetask.cpp
+       resources/imap/autotests/testretrievecollectionmetadatatask.cpp
+       resources/imap/autotests/testretrievecollectionstask.cpp
+       resources/imap/autotests/testretrieveitemstask.cpp
+       resources/imap/autotests/testretrieveitemtask.cpp
+       resources/imap/autotests/testsessionpool.cpp
+       resources/imap/highestmodseqattribute.cpp
+       resources/imap/highestmodseqattribute.h
+       resources/imap/setupserver.cpp
+       resources/imap/setupserver.h
+       resources/imap/tests/testsubscriptiondialog.cpp
+       resources/kalarm/kalarmdir/autoqpointer.h
+       resources/kolab/tests/imaptestbase.cpp
+       resources/kolab/tests/imaptestbase.h
+       resources/kolab/tests/testchangeitemstagstask.cpp
+       resources/kolab/tests/testretrievetagstask.cpp
+       resources/mixedmaildir/kmindexreader/autotests/TestIdxReader_data.h
+       resources/mixedmaildir/kmindexreader/autotests/testidxreader.cpp
+       resources/mixedmaildir/kmindexreader/autotests/testidxreader.h
+       resources/mixedmaildir/kmindexreader/kmindexreader.cpp
+       resources/mixedmaildir/kmindexreader/kmindexreader.h
+       resources/pop3/accountdialog.cpp
+       resources/pop3/accountdialog.h
+       resources/pop3/autotests/fakeserver/fakeserver.cpp
+       resources/pop3/autotests/fakeserver/fakeserver.h
+Copyright: 2003, Andreas Gungl <a.gungl@gmx.de>
+           2010, Casey Link <unnamedrambler@gmail.com>
+           2009, Christophe Giboudeaux <cgiboudeaux@gmail.com>
+           2000-2004, Cornelius Schumacher <schumacher@kde.org>
+           2013-2014, Daniel Vrátil <dvratil@redhat.com>
+           2009, David Jarvie <djarvie@kde.org>
+           2000, Espen Sand <espen@kde.org>
+           1989-1991, Free Software Foundation, Inc
+           2006, Frode M. Døving <frode@lnix.net>
+           2005, Gilles Caulier <caulier.gilles@free.fr>
+           2009-2014, Gregory Oestreicher <greg@kamago.net>
+           2009, Kevin Ottens <ervin@kde.org>
+           2009-2010, Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
+           2010, Klarälvdalens Datakonsult AB
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2006-2008, Omat Holding B.V <info@omat.nl>
+           1998-1999, Preston Brown <pbrown@kde.org>
+           1996-1998, Stefan Taferner <taferner@kde.org>
+           2009, Thomas McGuire <mcguire@kde.org>
+           2010, Tobias Koenig <tokoe@kde.org>
+           2008, Volker Krause <vkrause@kde.org>
+License: GPL-2+
 
-	Volker Krause
-	Tom Albers
-	Kevin Krammer
-	Till Adams
-	Thomas McGuire
-	Stephen Kelly
-	and others
+Files: COPYING.LIB
+       resources/gmail/gmailchangeitemslabelstask.cpp
+       resources/gmail/gmailchangeitemslabelstask.h
+       resources/gmail/gmailconfigdialog.cpp
+       resources/gmail/gmailconfigdialog.h
+       resources/gmail/gmaillabelattribute.cpp
+       resources/gmail/gmaillabelattribute.h
+       resources/gmail/gmaillinkitemstask.cpp
+       resources/gmail/gmaillinkitemstask.h
+       resources/gmail/gmailmessagehelper.cpp
+       resources/gmail/gmailmessagehelper.h
+       resources/gmail/gmailpasswordrequester.cpp
+       resources/gmail/gmailpasswordrequester.h
+       resources/gmail/gmailresourcestate.cpp
+       resources/gmail/gmailresourcestate.h
+       resources/gmail/gmailsettings.cpp
+       resources/imap/batchfetcher.cpp
+       resources/imap/batchfetcher.h
+       resources/imap/noinferiorsattribute.cpp
+       resources/imap/noinferiorsattribute.h
+       resources/maildir/libmaildir/keycache.cpp
+       resources/maildir/libmaildir/keycache.h
+Copyright: 2012, Andras Mantia <amantia@kde.org>
+           2012-2014, Christian Mollekopf <mollekopf@kolabsys.com>
+           2014, Daniel Vrátil <dvratil@redhat.com>
+           1991-1999, Free Software Foundation, Inc
+License: LGPL-2.1+
 
-Copyright:
+Files: resources/google/calendar/calendarresource.cpp
+       resources/google/calendar/calendarresource.h
+       resources/google/calendar/defaultreminderattribute.cpp
+       resources/google/calendar/defaultreminderattribute.h
+       resources/google/calendar/settings.cpp
+       resources/google/calendar/settings.h
+       resources/google/calendar/settingsdialog.cpp
+       resources/google/calendar/settingsdialog.h
+       resources/google/common/googleresource.cpp
+       resources/google/common/googleresource.h
+       resources/google/common/googlesettings.cpp
+       resources/google/common/googlesettings.h
+       resources/google/common/googlesettingsdialog.cpp
+       resources/google/common/googlesettingsdialog.h
+       resources/google/contacts/contactsresource.cpp
+       resources/google/contacts/contactsresource.h
+       resources/google/contacts/settings.cpp
+       resources/google/contacts/settings.h
+       resources/google/contacts/settingsdialog.cpp
+       resources/google/contacts/settingsdialog.h
+Copyright: 2011-2013, Dan Vratil <dan@progdan.cz>
+           2011-2013, Daniel Vrátil <dvratil@redhat.com>
+License: GPL-3+
 
+Files: agents/migration/autotests/dummymigrator.cpp
+       agents/migration/autotests/dummymigrator.h
+       agents/migration/autotests/schedulertest.cpp
+       agents/migration/migrationagent.cpp
+       agents/migration/migrationagent.h
+       agents/migration/migrationexecutor.cpp
+       agents/migration/migrationexecutor.h
+       agents/migration/migrationscheduler.cpp
+       agents/migration/migrationscheduler.h
+       agents/migration/migrationstatuswidget.cpp
+       agents/migration/migrationstatuswidget.h
+       migration/migratorbase.cpp
+       migration/migratorbase.h
+       resources/imap/searchtask.cpp
+       resources/imap/searchtask.h
+Copyright: 2013, Christian Mollekopf <mollekopf@kolabsys.com>
+           2013, Daniel Vrátil <dvratil@redhat.com>
+License: GPL-2+3+KDEeV
 
-Copyright (C) 1996-1998 Stefan Taferner <taferner@kde.org>
-Copyright (C) 2000 Espen Sand, espen@kde.org
-Copyright (C) 2001-2003 Marc Mutz <mutz@kde.org>
-Copyright (C) 2002-2009 Kitware, Inc., Insight Consortium.  All rights reserved.
-Copyright (C) 2003 Andreas Gungl <a.gungl@gmx.de>
-Copyright (C) 2003 Cornelius Schumacher <schumacher@kde.org>
-Copyright (C) 2004 Lutz Rogowski <rogowski@kde.org>
-Copyright (C) 2004-2011 Tobias Koenig <tokoe@kde.org>
-Copyright (C) 2005 by Gilles Caulier <caulier.gilles@free.fr>
-Copyright (C) 2006, Alexander Neundorf, <neundorf@kde.org>
-Copyright (C) 2006-2007 Frode M. Døving <frode@lnix.net>
-Copyright (C) 2006-2010 Omat Holding B.V. <info@omat.nl>
-Copyright (C) 2006-2010 Till Adam <adam@kde.org>
-Copyright (C) 2006-2012 Sebastian Trueg <trueg@kde.org>
-Copyright (C) 2006-2012 Volker Krause <vkrause@kde.org>
-Copyright (C) 2007 Bruno Virlet <bruno.virlet@gmail.com>
-Copyright (C) 2007 David Faure <faure@kde.org>
-Copyright (C) 2008 Ingo Klöcker <kloecker@kde.org>
-Copyright (C) 2008-2009 Igor Trindade Oliveira <igor_trindade@yahoo.com.br>
-Copyright (C) 2008-2010 Bertjan Broeksema <broeksema@kde.org>
-Copyright (C) 2008-2011 Kevin Krammer <kevin.krammer@gmx.at>
-Copyright (C) 2009 Christophe Giboudeaux  <cgiboudeaux@gmail.com>
-Copyright (C) 2009 Constantin Berzan <exit3219@gmail.com>
-Copyright (C) 2009 Jonathan Armond <jon.armond@gmail.com>
-Copyright (C) 2009 Kevin Ottens <ervin@kde.org>
-Copyright (C) 2009 Sebastian Sauer <sebsauer@kdab.com>
-Copyright (C) 2009-2010 Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
-Copyright (C) 2009-2010 Thomas McGuire <mcguire@kde.org>
-Copyright (C) 2009-2012 Allen Winter <winter@kde.org>
-Copyright (C) 2009-2012 Andras Mantia <amantia@kde.org>
-Copyright (C) 2009-2012 David Jarvie <djarvie@kde.org>
-Copyright (C) 2009-2012 Grégory Oestreicher <greg@kamago.net>
-Copyright (C) 2009-2012 Stephen Kelly <steveire@gmail.com>
-Copyright (C) 2010 Andreas Holzammer <andreas.holzammer@kdab.com>
-Copyright (C) 2010 Anselmo Lacerda Silveira de Melo <anselmolsm@gmail.com>
-Copyright (C) 2010 Casey Link <unnamedrambler@gmail.com>
-Copyright (C) 2010 Leo Franchi <lfranchi@kde.org>
-Copyright (C) 2010 Nokia Corporation and/or its subsidiary(-ies).
-Copyright (C) 2010 Tom Albers <toma@kde.org>
-Copyright (C) 2010-2013 Laurent Montel <montel@kde.org>
-Copyright (C) 2011-2012  Dan Vratil <dan@progdan.cz>
-Copyright (C) 2011-2012 Christian Mollekopf <chrigi_1@fastmail.fm>
-Copyright (C) 2012 Marco Nelles <marco.nelles@credativ.com>
-Copyright (C) 2012 Sérgio Martins <iamsergio@gmail.com>
+Files: agents/newmailnotifier/newmailnotifiershowmessagejob.cpp
+       agents/newmailnotifier/newmailnotifiershowmessagejob.h
+       agents/newmailnotifier/specialnotifierjob.cpp
+       agents/newmailnotifier/specialnotifierjob.h
+       resources/folderarchivesettings/autotests/folderarchiveaccountinfotest.cpp
+       resources/folderarchivesettings/autotests/folderarchiveaccountinfotest.h
+       resources/folderarchivesettings/folderarchiveaccountinfo.cpp
+       resources/folderarchivesettings/folderarchiveaccountinfo.h
+       resources/folderarchivesettings/folderarchivesettingpage.cpp
+       resources/folderarchivesettings/folderarchivesettingpage.h
+       resources/folderarchivesettings/folderarchiveutil.cpp
+       resources/folderarchivesettings/folderarchiveutil.h
+       resources/mbox/autotests/deleteitemsattributetest.cpp
+       resources/mbox/autotests/deleteitemsattributetest.h
+Copyright: 2013-2015, Montel Laurent <montel@kde.org>
+License: GPL-2
 
-License:
-   The files in this package is licensed under a mix of gplv2 or later, lgplv2 or later
-   or lgplv2.1 or later, effectively making the source package under gplv2 or later.
+Files: resources/pop3/autotests/pop3test.cpp
+       resources/pop3/autotests/pop3test.h
+       resources/pop3/jobs.cpp
+       resources/pop3/jobs.h
+       resources/pop3/metatype.h
+       resources/pop3/pop3resource.cpp
+       resources/pop3/pop3resource.h
+       resources/pop3/settings.cpp
+       resources/pop3/settings.h
+Copyright: 2009-2010, Thomas McGuire <mcguire@kde.org>
+License: LGPL-2+3+KDEeV
 
-  lgplv2:
-    This library is free software; you can redistribute it and/or modify it
-    under the terms of the GNU Library General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or (at your
-    option) any later version.
+Files: resources/maildir/libmaildir/autotests/testmaildir.cpp
+       resources/shared/singlefileresource/getcredentialsjob.cpp
+       resources/shared/singlefileresource/getcredentialsjob.h
+Copyright: 2013, Alejandro Fiestas Olivares <afiestas@kde.org>
+           2007, Till Adam <adam@kde.org>
+License: LGPL-2
 
-    This library is distributed in the hope that it will be useful, but WITHOUT
-    ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-    FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public
-    License for more details.
+Files: resources/gmail/saslplugin/config.h
+       resources/gmail/saslplugin/plugin_common.c
+       resources/gmail/saslplugin/plugin_common.h
+Copyright: 1998-2003, Carnegie Mellon University
+License: BSD_like_CMU-4-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+ .
+ 3. The name "Carnegie Mellon University" must not be used to
+    endorse or promote products derived from this software without
+    prior written permission. For permission or any other legal
+    details, please contact
+      Office of Technology Transfer
+      Carnegie Mellon University
+      5000 Forbes Avenue
+      Pittsburgh, PA  15213-3890
+      (412) 268-4387, fax: (412) 268-7395
+      tech-transfer@andrew.cmu.edu
+ .
+ 4. Redistributions of any form whatsoever must retain the following
+    acknowledgment:
+    "This product includes software developed by Computing Services
+     at Carnegie Mellon University (http://www.cmu.edu/computing/)."
+ .
+ CARNEGIE MELLON UNIVERSITY DISCLAIMS ALL WARRANTIES WITH REGARD TO
+ THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS, IN NO EVENT SHALL CARNEGIE MELLON UNIVERSITY BE LIABLE
+ FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
+ AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
+ OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-    You should have received a copy of the GNU Library General Public License
-    along with this library; see the file COPYING.LIB.  If not, write to the
-    Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
-    02110-1301, USA.
+Files: doc/pics/akonadi_agent_handling.eps
+       doc/pics/akonadi_client_search.eps
+Copyright: 2003, Bitstream, Inc
+           1994-2005, Trolltech
+License: QT_Prolog
+ You may copy this prolog in any way that is directly related to this
+ document. For other use of this prolog, see your licensing agreement for Qt.
+ .
+ The complete copyright information of qt5 can be found in
+ `/usr/share/doc/libqt5gui5/copyright'.
 
-    For full text of the GNU Library General Public License, see
-    /usr/share/common-licenses/LGPL-2
+Files: debian/*
+Copyright: 2009, Sune Vuorela <debian@pusling.com>
+License: LGPL-2+
 
-  lgplv2.1:
-    This library is free software; you can redistribute it and/or
-    modify it under the terms of the GNU Lesser General Public
-    License as published by the Free Software Foundation; either
-    version 2.1 of the License, or (at your option) any later version.
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License, version 2, as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
 
-    This library is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. | See the GNU
-    Lesser General Public License for more details.
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
 
-    You should have received a copy of the GNU Lesser General Public
-    License along with this library; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
-    02110-1301 | USA
+License: GPL-2+3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2', likewise,
+ the complete text of the GNU General Public License version 3
+ can be found in `/usr/share/common-licenses/GPL-3'.
 
-    For full text of the GNU Lesser General Public License, see
-    /usr/share/common-licenses/LGPL-2.1
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 3
+ can be found in `/usr/share/common-licenses/GPL-3'.
 
-  gplv2:
-    This program is free software; you can redistribute it and/or
-    modify it under the terms of the GNU General Public
-    License as published by the Free Software Foundation; either
-    version 2 of the License, or (at your option) any later version.
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2'.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-    General Public License for more details.
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public
+ License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2'.
 
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+License: LGPL-2+3+KDEeV
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License as published
+ by the Free Software Foundation; either version 2 of the License or
+ ( at your option ) version 3 or, at the discretion of KDE e.V.
+ ( which shall act as a proxy as in section 14 of the GPLv3 ), any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2', likewise,
+ the complete text of the GNU Library General Public License version 3
+ can be found in `/usr/share/common-licenses/LGPL-3'.
 
-    For full text of the GNU General Public License, see
-    /usr/share/common-licenses/GPL-2
-
-  gplv3
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    For full text of the GNU General Public License, see
-    /usr/share/common-licenses/GPL-3
-
-
-  COPYING-CMAKE-SCRIPTS from kde4libs source package, as referenced from the cmake subdir:
-    Redistribution and use in source and binary forms, with or without
-    modification, are permitted provided that the following conditions
-    are met:
-
-    1. Redistributions of source code must retain the copyright
-       notice, this list of conditions and the following disclaimer.
-    2. Redistributions in binary form must reproduce the copyright
-       notice, this list of conditions and the following disclaimer in the
-       documentation and/or other materials provided with the distribution.
-    3. The name of the author may not be used to endorse or promote products
-       derived from this software without specific prior written permission.
-
-    THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
-    IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
-    OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-    IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
-    INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
-    NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-    THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-    THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-The Debian packaging is:
-
-    Copyright (C) 2009 Sune Vuorela <debian@pusling.com>
-    and available under the gnu library public license, version 2, or at your opinion any later version.
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in `/usr/share/common-licenses/LGPL-2.1'.
