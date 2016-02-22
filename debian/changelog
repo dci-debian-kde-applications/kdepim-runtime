@@ -16,6 +16,9 @@ kdepim-runtime (4:15.12.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.12.2).
 
+  [ Sandro Knauß ]
+  * Add libkolab-dev to reenable kolab integration.
+
  -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:43:23 +0100
 
 kdepim-runtime (4:15.12.1-2) experimental; urgency=medium
