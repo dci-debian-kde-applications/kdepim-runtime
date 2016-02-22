@@ -12,7 +12,6 @@ usr/bin/akonadi_invitations_agent
 usr/bin/akonadi_kalarm_dir_resource
 usr/bin/akonadi_kalarm_resource
 usr/bin/akonadi_kolab_resource
-usr/bin/akonadi_kolab_resource
 usr/bin/akonadi_maildir_resource
 usr/bin/akonadi_maildispatcher_agent
 usr/bin/akonadi_mbox_resource
@@ -45,7 +44,6 @@ usr/share/akonadi/accountwizard/ical/icalwizard.ui
 usr/share/akonadi/accountwizard/imap/imapwizard.desktop
 usr/share/akonadi/accountwizard/imap/imapwizard.es
 usr/share/akonadi/accountwizard/imap/imapwizard.ui
-usr/share/akonadi/accountwizard/kolab/
 usr/share/akonadi/accountwizard/kolab/kolabwizard.desktop
 usr/share/akonadi/accountwizard/kolab/kolabwizard.es
 usr/share/akonadi/accountwizard/kolab/kolabwizard.ui
@@ -78,7 +76,6 @@ usr/share/akonadi/agents/invitationsagent.desktop
 usr/share/akonadi/agents/kalarmdirresource.desktop
 usr/share/akonadi/agents/kalarmresource.desktop
 usr/share/akonadi/agents/kolabresource.desktop
-usr/share/akonadi/agents/kolabresource.desktop
 usr/share/akonadi/agents/maildirresource.desktop
 usr/share/akonadi/agents/maildispatcheragent.desktop
 usr/share/akonadi/agents/mboxresource.desktop
@@ -103,7 +100,6 @@ usr/share/icons/hicolor/128x128/apps/ox.png
 usr/share/icons/hicolor/16x16/apps/ox.png
 usr/share/icons/hicolor/32x32/apps/ox.png
 usr/share/icons/hicolor/48x48/apps/ox.png
-usr/share/icons/hicolor/64x64/apps/kolab.png
 usr/share/icons/hicolor/64x64/apps/kolab.png
 usr/share/icons/hicolor/64x64/apps/ox.png
 usr/share/knotifications5/akonadi_maildispatcher_agent.notifyrc

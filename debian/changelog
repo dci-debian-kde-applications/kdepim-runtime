@@ -6,6 +6,7 @@ kdepim-runtime (4:15.12.1-2ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Add missing files to install.
+  * Revert last commit, it is actually missing new kolab. 
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 17 Feb 2016 11:33:25 +0000
 
