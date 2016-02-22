@@ -1,7 +1,11 @@
 kdepim-runtime (4:15.12.1-2ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * Merged with Debian
   * New upstream release 
+
+  [ Scarlett Clark ]
+  * Add missing files to install.
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 17 Feb 2016 11:33:25 +0000
 
