@@ -15,6 +15,7 @@ kdepim-runtime (4:15.12.1-2ubuntu1) UNRELEASED; urgency=medium
   * Updating libkolab-dev to require (>= 1.0.2) and removing
     libkolabxml-dev
   * Removing libkolab to see if it will build
+  * Removing kolab files from install
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 17 Feb 2016 11:33:25 +0000
 
