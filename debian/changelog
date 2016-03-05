@@ -3,25 +3,19 @@ kdepim-runtime (4:15.12.1-2ubuntu1) UNRELEASED; urgency=medium
   [ Clive Johnston ]
   * Merged with Debian
   * New upstream release
-  * Adding back the build deps for libkolab 
 
   [ Scarlett Clark ]
   * Add missing files to install.
-  * Revert last commit, it is actually missing new kolab. 
-  * Fix packagename for libkgapi, remove libkolab2. 
-  * Revert libkgapi. It was correct. 
-
-  [ Clive Johnston ]
-  * Updating libkolab-dev to require (>= 1.0.2) and removing
-    libkolabxml-dev
-  * Removing libkolab to see if it will build
-  * Removing kolab files from install
-
-  [ Scarlett Clark ]
+  * Remove libkolab2. 
   * Bump ibuild depend versions for pim*. 
-  * Add back libkolab.. 
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 17 Feb 2016 11:33:25 +0000
+
+kdepim-runtime (4:15.12.1-3~) UNRELEASED; urgency=medium
+
+  * Add libkolab-dev to reenable kolab integration.
+
+ -- Sandro Knauß <bugs@sandroknauss.de>  Fri, 19 Feb 2016 13:14:09 +0100
 
 kdepim-runtime (4:15.12.1-2) experimental; urgency=medium
 
