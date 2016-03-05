@@ -19,6 +19,7 @@ kdepim-runtime (4:15.12.1-2ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Bump ibuild depend versions for pim*. 
+  * Add back libkolab.. 
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 17 Feb 2016 11:33:25 +0000
 
