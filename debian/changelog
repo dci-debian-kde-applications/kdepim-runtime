@@ -17,6 +17,9 @@ kdepim-runtime (4:15.12.1-2ubuntu1) UNRELEASED; urgency=medium
   * Removing libkolab to see if it will build
   * Removing kolab files from install
 
+  [ Scarlett Clark ]
+  * Bump ibuild depend versions for pim*. 
+
  -- Clive Johnston <clivejo@aol.com>  Wed, 17 Feb 2016 11:33:25 +0000
 
 kdepim-runtime (4:15.12.1-2) experimental; urgency=medium
