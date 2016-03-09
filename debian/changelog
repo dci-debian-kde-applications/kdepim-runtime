@@ -1,4 +1,4 @@
-kdepim-runtime (4:15.12.1-3~ubuntu1) UNRELEASED; urgency=medium
+kdepim-runtime (4:15.12.1-3~ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
   * Merged with Debian
@@ -9,7 +9,7 @@ kdepim-runtime (4:15.12.1-3~ubuntu1) UNRELEASED; urgency=medium
   * Remove libkolab2. 
   * Bump ibuild depend versions for pim*. 
 
- -- Clive Johnston <clivejo@aol.com>  Wed, 17 Feb 2016 11:33:25 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 10:39:48 +0100
 
 kdepim-runtime (4:15.12.1-3~) UNRELEASED; urgency=medium
 
