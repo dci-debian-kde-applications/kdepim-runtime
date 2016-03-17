@@ -1,8 +1,9 @@
-kdepim-runtime (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
+kdepim-runtime (4:15.12.3-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream bugfix release
+  * New upstream bugfix release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 21:17:00 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 16 Mar 2016 19:30:09 -0700
 
 kdepim-runtime (4:15.12.1-3~ubuntu3) xenial; urgency=medium
 
