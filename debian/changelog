@@ -1,14 +1,15 @@
-kdepim-runtime (4:15.12.3-1~1.gbpb251a6) UNRELEASED; urgency=medium
+kdepim-runtime (4:16.04.0-1~1.gbp4a7c54) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b251a6b2022731fd48b8150bc5e2fdcc92b179a7 **
+  ** SNAPSHOT build @4a7c54dc81bac642588f35a8aed8d4908f1c806e **
 
   [ Sandro Knauß ]
   * Add libkolab-dev to reenable kolab integration.
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:43:12 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 06:42:25 +0200
 
 kdepim-runtime (4:15.12.1-2) experimental; urgency=medium
 
