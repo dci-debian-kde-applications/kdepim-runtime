@@ -1,6 +1,11 @@
 kdepim-runtime (4:16.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
+
+  [ Philip Muškovac ]
+  * Update the Vcs URLs now that the repositories are hosted on
+    Launchpad
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sun, 01 May 2016 19:50:10 -0700
 
