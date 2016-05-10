@@ -1,4 +1,4 @@
-kdepim-runtime (4:16.04.0-0ubuntu1) UNRELEASED; urgency=medium
+kdepim-runtime (4:16.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -7,7 +7,10 @@ kdepim-runtime (4:16.04.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update the Vcs URLs now that the repositories are hosted on
     Launchpad
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Sun, 01 May 2016 19:50:10 -0700
+  [ Scarlett Clark ]
+  * New upstream bugfix release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 May 2016 12:05:55 -0700
 
 kdepim-runtime (4:15.12.3-0ubuntu1) xenial; urgency=medium
 
