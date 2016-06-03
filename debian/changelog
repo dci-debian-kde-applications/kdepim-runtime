@@ -1,6 +1,4 @@
-kdepim-runtime (4:16.04.1-1~1.gbp2aab85) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @2aab854d1c0053d33e01856f7e5ecd6c0be9ebeb **
+kdepim-runtime (4:16.04.1-1) experimental; urgency=medium
 
   [ Sandro Knauß ]
   * Add libkolab-dev to reenable kolab integration.
@@ -8,18 +6,13 @@ kdepim-runtime (4:16.04.1-1~1.gbp2aab85) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:42:19 +0200
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
-kdepim-runtime (4:15.12.2-1~) UNRELEASED; urgency=medium
-
-  * New upstream release (15.12.2).
-
-  [ Sandro Knauß ]
-  * Add libkolab-dev to reenable kolab integration.
-
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:43:23 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jun 2016 16:17:41 +0200
 
 kdepim-runtime (4:15.12.1-2) experimental; urgency=medium
 
