@@ -60,7 +60,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdepim-runtime.git
 Package: kdepim-runtime
 Architecture: any
 Depends: akonadi-server (>= 1.8),
-         kdepimlibs-kio-plugins,
+         kf5-kdepimlibs-kio-plugins,
          ${misc:Depends},
          ${shlibs:Depends}
 Replaces: akonadi-kde, libmaildir4
