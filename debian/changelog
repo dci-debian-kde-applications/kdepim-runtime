@@ -1,3 +1,11 @@
+kdepim-runtime (4:16.04.2-1~1.gbp928398) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @92839844b6d5cdf9af2bd67e7261f370f00b4bf5 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 06:42:14 +0200
+
 kdepim-runtime (4:16.04.1-2) experimental; urgency=medium
 
   * Depend on the kf5 kio plugins.
