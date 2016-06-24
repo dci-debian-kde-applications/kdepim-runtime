@@ -1,4 +1,4 @@
-kdepim-runtime (4:16.04.1-0ubuntu1) UNRELEASED; urgency=medium
+kdepim-runtime (4:16.04.2-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -10,7 +10,10 @@ kdepim-runtime (4:16.04.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * New upstream bugfix release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 May 2016 12:05:55 -0700
+  [ Clive Johnston ]
+  * New upstream release (16.04.2)
+
+ -- Clive Johnston <clivejo@kubuntu.org>  Fri, 24 Jun 2016 22:37:48 +0100
 
 kdepim-runtime (4:15.12.3-0ubuntu1) xenial; urgency=medium
 
