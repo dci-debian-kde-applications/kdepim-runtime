@@ -16,6 +16,7 @@ kdepim-runtime (4:16.04.3-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Rik Mills ]
   * Remove now defunct libkf5akonadisocialutils-dev build dep
+  * Also remove qtquick1-5-dev build dep as no longer exists
 
  -- Clive Johnston <clivejo@kubuntu.org>  Fri, 08 Jul 2016 00:59:08 +0100
 
