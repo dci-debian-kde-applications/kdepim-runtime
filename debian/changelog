@@ -14,6 +14,9 @@ kdepim-runtime (4:16.04.3-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release (16.04.2)
   * New upstream release (16.04.3)
 
+  [ Rik Mills ]
+  * Remove now defunct libkf5akonadisocialutils-dev build dep
+
  -- Clive Johnston <clivejo@kubuntu.org>  Fri, 08 Jul 2016 00:59:08 +0100
 
 kdepim-runtime (4:15.12.3-0ubuntu1) xenial; urgency=medium
