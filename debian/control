@@ -55,7 +55,7 @@ Build-Depends: cmake (>= 2.8.12~),
 Standards-Version: 3.9.6
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/kdepim-runtime
-Vcs-Git: git://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/kdepim-runtime
+Vcs-Git: https://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/kdepim-runtime
 
 Package: kdepim-runtime
 Architecture: any
