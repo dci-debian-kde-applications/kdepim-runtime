@@ -65,10 +65,14 @@ Depends: akonadi-server (>= 1.8),
          kio-smtp,
          ${misc:Depends},
          ${shlibs:Depends}
-Replaces: akonadi-kde, kdepimlibs-kio-plugins, libmaildir4
+Replaces: akonadi-kde,
+          kdepimlibs-kio-plugins,
+          kf5-kdepimlibs-kio-plugins,
+          libmaildir4
 Breaks: akonadi-kde,
         kdepimlibs-kio-plugins,
         kdepimlibs5 (<< 4:4.4),
+        kf5-kdepimlibs-kio-plugins,
         libmaildir4
 Description: runtime components for Akonadi KDE
  This package contains Akonadi agents written using KDE Development Platform
