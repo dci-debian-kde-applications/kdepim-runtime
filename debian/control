@@ -61,7 +61,9 @@ Vcs-Git: https://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/kde
 Package: kdepim-runtime
 Architecture: any
 Depends: akonadi-server (>= 1.8),
-         kdepimlibs-kio-plugins,
+         kio-ldap,
+         kio-sieve,
+         kio-smtp,
          ${misc:Depends},
          ${shlibs:Depends}
 Replaces: akonadi-kde,
