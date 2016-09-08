@@ -1,6 +1,6 @@
-kdepim-runtime (4:16.08.0-1~1.gbpfdb31a) UNRELEASED; urgency=medium
+kdepim-runtime (4:16.08.1-1~1.gbp34f313) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @fdb31a4467eb968c52bf7d2ecea7fea055106678 **
+  ** SNAPSHOT build @34f313c3c0e974387a40538bebae45ca379a3d1c **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @bc83f941f2f56d2ec0952f7bbda3b6e263a9f9bb **
@@ -9,8 +9,9 @@ kdepim-runtime (4:16.08.0-1~1.gbpfdb31a) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:42:38 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 00:42:47 +0200
 
 kdepim-runtime (4:16.04.2-2) unstable; urgency=medium
 
