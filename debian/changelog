@@ -1,3 +1,9 @@
+kdepim-runtime (4:16.04.3-0ubuntu2) yakkety; urgency=medium
+
+  * Drop unused build-dependency on obsolete qtquick1-5-dev.
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Sat, 01 Oct 2016 00:43:46 -0700
+
 kdepim-runtime (4:16.04.3-0ubuntu1) yakkety; urgency=medium
 
   [ Scarlett Clark ]
