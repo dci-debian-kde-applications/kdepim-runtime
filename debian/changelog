@@ -1,3 +1,10 @@
+kdepim-runtime (4:16.04.3-0ubuntu3) yakkety; urgency=medium
+
+  * Add upstream_adapt_mailserializertest_to_changes_in_kmime.patch to
+    fix a failing test.
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sat, 08 Oct 2016 16:57:41 +0100
+
 kdepim-runtime (4:16.04.3-0ubuntu2) yakkety; urgency=medium
 
   * Drop unused build-dependency on obsolete qtquick1-5-dev.

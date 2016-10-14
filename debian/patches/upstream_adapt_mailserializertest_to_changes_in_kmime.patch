@@ -1,0 +1,33 @@
+From f8c62b915ef1a9ecfe6606f796f49b48bed81de5 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Daniel=20Vr=C3=A1til?= <dvratil@kde.org>
+Date: Sat, 23 Apr 2016 01:27:58 +0200
+Subject: [PATCH] Adapt mailserializertest to changes in KMime
+
+Since some time KMime returns a null QString instead of an empty
+QString for empty headers, which shows in the tests.
+
+Luckily this does not affect deserializing the data, so this presents
+no problem, except for the slight adjustment to the tests.
+---
+ plugins/autotests/mailserializertest.cpp | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/plugins/autotests/mailserializertest.cpp b/plugins/autotests/mailserializertest.cpp
+index b24d59c..ea22fe6 100644
+--- a/plugins/autotests/mailserializertest.cpp
++++ b/plugins/autotests/mailserializertest.cpp
+@@ -170,9 +170,9 @@ void MailSerializerTest::testEnvelopeSerialize_data()
+     QDataStream stream(&buffer);
+     stream << QDateTime(QDate(2006, 2, 1), QTime(13, 37, 19), Qt::UTC)
+            << QString::fromUtf8("IMPORTANT: Akonadi Test")
+-           << QString::fromUtf8("")
++           << QString()
+            << QString::fromUtf8("<{7b55527e-77f4-489d-bf18-e805be96718c}@server.kde.org>")
+-           << QString::fromUtf8("")
++           << QString()
+            << 1 << QString::fromUtf8("Tobias Koenig") << QString::fromUtf8("tokoe") << QString::fromUtf8("kde.org")
+            << 1 << QString::fromUtf8("Tobias Koenig") << QString::fromUtf8("tokoe") << QString::fromUtf8("kde.org")
+            << 0
+-- 
+2.7.4
+
