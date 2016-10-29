@@ -1,3 +1,9 @@
+kdepim-runtime (4:16.04.3-0ubuntu4) UNRELEASED; urgency=medium
+
+  * Update Vcs-Git fields to use https:// instead of git://
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sat, 29 Oct 2016 17:16:35 +0200
+
 kdepim-runtime (4:16.04.3-0ubuntu3) yakkety; urgency=medium
 
   * Add upstream_adapt_mailserializertest_to_changes_in_kmime.patch to
