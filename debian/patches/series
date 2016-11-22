@@ -1,2 +1,1 @@
 kubuntu_disable_flaky_test.patch
-upstream_adapt_mailserializertest_to_changes_in_kmime.patch
