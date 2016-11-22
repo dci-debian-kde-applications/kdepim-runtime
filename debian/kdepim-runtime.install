@@ -1,4 +1,5 @@
 etc/xdg/kdepim-runtime.categories
+etc/xdg/kdepim-runtime.renamecategories
 usr/bin/akonadi_akonotes_resource
 usr/bin/akonadi_birthdays_resource
 usr/bin/akonadi_contacts_resource
