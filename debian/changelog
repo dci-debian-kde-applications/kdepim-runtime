@@ -1,8 +1,12 @@
-kdepim-runtime (4:16.04.3-0ubuntu4) UNRELEASED; urgency=medium
+kdepim-runtime (4:16.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ José Manuel Santamaría Lema ]
   * Update Vcs-Git fields to use https:// instead of git://
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sat, 29 Oct 2016 17:16:35 +0200
+  [ Rik Mills ]
+  * New upstream release (16.12.0)
+
+ -- Rik Mills <rikmills@kubuntu.org>  Fri, 30 Dec 2016 18:13:45 +0000
 
 kdepim-runtime (4:16.04.3-0ubuntu3) yakkety; urgency=medium
 
