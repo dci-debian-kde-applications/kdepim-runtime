@@ -38,6 +38,8 @@ usr/lib/*/qt5/plugins/akonadi_serializer_kcalcore.so
 usr/lib/*/qt5/plugins/akonadi_serializer_mail.so
 usr/lib/*/qt5/plugins/kf5/kio/akonadi.so
 usr/lib/*/qt5/plugins/kf5/kio/pop3.so
+usr/lib/*/sasl2/libkdexoauth2.so.3
+usr/lib/*/sasl2/libkdexoauth2.so.3.0.0
 usr/share/akonadi/accountwizard/contacts/contactswizard.desktop
 usr/share/akonadi/accountwizard/contacts/contactswizard.es
 usr/share/akonadi/accountwizard/contacts/contactswizard.ui
