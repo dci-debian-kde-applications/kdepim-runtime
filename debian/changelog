@@ -1,4 +1,4 @@
-kdepim-runtime (4:16.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kdepim-runtime (4:16.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Update Vcs-Git fields to use https:// instead of git://
@@ -8,8 +8,9 @@ kdepim-runtime (4:16.12.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update build deps to use new KF5 style names
   * Update QtWebEngine and QtWebChannel dependency dev package names to
     match debian packaging
+  * New upstream release (16.12.1)
 
- -- Rik Mills <rikmills@kubuntu.org>  Fri, 30 Dec 2016 18:13:45 +0000
+ -- Rik Mills <rikmills@kubuntu.org>  Sat, 14 Jan 2017 09:35:38 +0000
 
 kdepim-runtime (4:16.04.3-0ubuntu3) yakkety; urgency=medium
 
