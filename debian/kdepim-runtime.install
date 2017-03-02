@@ -4,8 +4,6 @@ usr/bin/akonadi_akonotes_resource
 usr/bin/akonadi_birthdays_resource
 usr/bin/akonadi_contacts_resource
 usr/bin/akonadi_davgroupware_resource
-usr/bin/akonadi_googlecalendar_resource
-usr/bin/akonadi_googlecontacts_resource
 usr/bin/akonadi_ical_resource
 usr/bin/akonadi_icaldir_resource
 usr/bin/akonadi_imap_resource
@@ -39,7 +37,7 @@ usr/lib/*/qt5/plugins/akonadi_serializer_mail.so
 usr/lib/*/qt5/plugins/kf5/kio/akonadi.so
 usr/lib/*/sasl2/libkdexoauth2.so.3
 usr/lib/*/sasl2/libkdexoauth2.so.3.0.0
-usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/pop3.so
+usr/lib/*/qt5/plugins/kf5/kio/pop3.so
 usr/share/akonadi/accountwizard/contacts/contactswizard.desktop
 usr/share/akonadi/accountwizard/contacts/contactswizard.es
 usr/share/akonadi/accountwizard/contacts/contactswizard.ui
@@ -72,8 +70,6 @@ usr/share/akonadi/agents/akonotesresource.desktop
 usr/share/akonadi/agents/birthdaysresource.desktop
 usr/share/akonadi/agents/contactsresource.desktop
 usr/share/akonadi/agents/davgroupwareresource.desktop
-usr/share/akonadi/agents/googlecalendarresource.desktop
-usr/share/akonadi/agents/googlecontactsresource.desktop
 usr/share/akonadi/agents/icaldirresource.desktop
 usr/share/akonadi/agents/icalresource.desktop
 usr/share/akonadi/agents/imapresource.desktop
