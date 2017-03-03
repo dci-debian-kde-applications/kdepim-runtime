@@ -4,6 +4,8 @@ usr/bin/akonadi_akonotes_resource
 usr/bin/akonadi_birthdays_resource
 usr/bin/akonadi_contacts_resource
 usr/bin/akonadi_davgroupware_resource
+usr/bin/akonadi_googlecalendar_resource
+usr/bin/akonadi_googlecontacts_resource
 usr/bin/akonadi_ical_resource
 usr/bin/akonadi_icaldir_resource
 usr/bin/akonadi_imap_resource
@@ -70,6 +72,8 @@ usr/share/akonadi/agents/akonotesresource.desktop
 usr/share/akonadi/agents/birthdaysresource.desktop
 usr/share/akonadi/agents/contactsresource.desktop
 usr/share/akonadi/agents/davgroupwareresource.desktop
+usr/share/akonadi/agents/googlecalendarresource.desktop
+usr/share/akonadi/agents/googlecontactsresource.desktop
 usr/share/akonadi/agents/icaldirresource.desktop
 usr/share/akonadi/agents/icalresource.desktop
 usr/share/akonadi/agents/imapresource.desktop
