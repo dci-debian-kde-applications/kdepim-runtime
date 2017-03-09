@@ -10,8 +10,6 @@ kdepim-runtime (4:16.12.3-0ubuntu1) UNRELEASED; urgency=medium
   * Update QtWebEngine and QtWebChannel dependency dev package names to
     match debian packaging
   * New upstream release (16.12.1)
-  * Remove some Google services related files from instaled files, as we
-    do not have a recent enough libkgapi to build these in zesty.
 
   [ Darin Miller ]
   * New upstream release (16.12.2)
