@@ -1,7 +1,14 @@
-kdepim-runtime (4:16.12.2-0ubuntu1) UNRELEASED; urgency=medium
+kdepim-runtime (4:16.12.3-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Add new libkpimkdav-dev as build dep
+
+ -- Rik Mills <rikmills@kubuntu.org> Thur, 09 Mar 2017 12:43:09 +0000
+
+kdepim-runtime (4:16.12.3-0ubuntu1) UNRELEASED; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Update Vcs-Git fields to use https:// instead of git://
+  * New upstream release (16.12.3)
 
   [ Rik Mills ]
   * New upstream release (16.12.0)
@@ -9,12 +16,13 @@ kdepim-runtime (4:16.12.2-0ubuntu1) UNRELEASED; urgency=medium
   * Update QtWebEngine and QtWebChannel dependency dev package names to
     match debian packaging
   * New upstream release (16.12.1)
-  * Add new libkpimkdav-dev as build dep
+  * Remove some Google services related files from instaled files, as we
+    do not have a recent enough libkgapi to build these in zesty.
 
   [ Darin Miller ]
   * New upstream release (16.12.2)
 
- -- Darin Miller <darinsmiller@gmail.com>  Tue, 21 Feb 2017 00:52:14 +0000
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 07 Mar 2017 10:22:16 +0100
 
 kdepim-runtime (4:16.04.3-0ubuntu3) yakkety; urgency=medium
 
