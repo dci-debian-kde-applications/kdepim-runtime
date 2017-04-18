@@ -111,6 +111,7 @@ usr/share/icons/hicolor/48x48/apps/ox.png
 usr/share/icons/hicolor/64x64/apps/ox.png
 usr/share/knotifications5/akonadi_maildispatcher_agent.notifyrc
 usr/share/knotifications5/akonadi_newmailnotifier_agent.notifyrc
+usr/share/knotifications5/akonadi_pop3_resource.notifyrc
 usr/share/kservices5/akonadi.protocol
 usr/share/kservices5/akonadi/davgroupware-providers/citadel.desktop
 usr/share/kservices5/akonadi/davgroupware-providers/davical.desktop
