@@ -101,8 +101,7 @@ usr/share/akonadi/plugins/serializer/akonadi_serializer_contactgroup.desktop
 usr/share/akonadi/plugins/serializer/akonadi_serializer_kalarm.desktop
 usr/share/akonadi/plugins/serializer/akonadi_serializer_kcalcore.desktop
 usr/share/akonadi/plugins/serializer/akonadi_serializer_mail.desktop
-usr/share/doc/HTML/en/kioslave5/pop3/index.cache.bz2
-usr/share/doc/HTML/en/kioslave5/pop3/index.docbook
+usr/share/doc/HTML/*/kioslave5/pop3/
 usr/share/icons/hicolor/128x128/apps/ox.png
 usr/share/icons/hicolor/16x16/apps/ox.png
 usr/share/icons/hicolor/32x32/apps/ox.png
