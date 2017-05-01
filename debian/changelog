@@ -10,6 +10,7 @@ kdepim-runtime (4:16.12.3-0ubuntu1) UNRELEASED; urgency=medium
   * Update QtWebEngine and QtWebChannel dependency dev package names to
     match debian packaging
   * New upstream release (16.12.1)
+  * Increase build depend on libkgapi to version 5.3
 
   [ Darin Miller ]
   * New upstream release (16.12.2)
