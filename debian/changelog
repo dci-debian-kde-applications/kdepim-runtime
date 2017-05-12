@@ -1,3 +1,9 @@
+kdepim-runtime (4:16.12.3-0ubuntu2) artful; urgency=medium
+
+  * debian/patches: add upstream_fix_build_with_cmake_3.8.patch 
+
+ -- Rik Mills <rikmills@kubuntu.org>  Fri, 12 May 2017 18:11:46 +0100
+
 kdepim-runtime (4:16.12.3-0ubuntu1) artful; urgency=medium
 
   [ José Manuel Santamaría Lema ]
