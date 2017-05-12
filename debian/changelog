@@ -5,6 +5,7 @@ kdepim-runtime (4:17.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * New upstream release (17.04.1)
+  * Remove upstream_fix_build_with_cmake_3.8.patch, applied upstream.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 10 May 2017 14:40:28 +0200
 
