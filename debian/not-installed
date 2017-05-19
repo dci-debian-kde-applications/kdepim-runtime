@@ -8,4 +8,3 @@
 ./usr/lib/*/libfolderarchivesettings.so
 ./usr/lib/*/libkmindexreader.so
 ./usr/lib/*/libmaildir.so
-./usr/lib/*/sasl2/libkdexoauth2.so
