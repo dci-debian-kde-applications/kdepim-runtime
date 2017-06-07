@@ -1,4 +1,4 @@
-kdepim-runtime (4:17.04.1-0ubuntu1) UNRELEASED; urgency=medium
+kdepim-runtime (4:17.04.2-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Rik Mills ]
   * Add new libkpimkdav-dev as build dep
@@ -8,8 +8,9 @@ kdepim-runtime (4:17.04.1-0ubuntu1) UNRELEASED; urgency=medium
   * Remove upstream_fix_build_with_cmake_3.8.patch, applied upstream.
   * Cherry-pick fix from Neon for https://bugs.kde.org/show_bug.cgi?id=379089
   * Install translations and add Breaks/Replaces against kde-l10n
+  * New upstream release (17.04.2)
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 10 May 2017 14:40:28 +0200
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 07 Jun 2017 07:29:25 +0200
 
 kdepim-runtime (4:16.12.3-0ubuntu2) artful; urgency=medium
 
