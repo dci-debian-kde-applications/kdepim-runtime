@@ -1,6 +1,7 @@
 kdepim-runtime (4:17.07.70-0ubuntu1) UNRELEASED; urgency=medium
 
   * New build depend on libkf5contacteditor-dev
+  * Update install files for new 'Facebook event sync resource'
 
  -- Rik Mills <rikmills@kubuntu.org>  Mon, 26 Jun 2017 09:06:44 +0100
 
