@@ -1,3 +1,9 @@
+kdepim-runtime (4:17.07.70-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New build depend on libkf5contacteditor-dev
+
+ -- Rik Mills <rikmills@kubuntu.org>  Mon, 26 Jun 2017 09:06:44 +0100
+
 kdepim-runtime (4:17.04.2-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Rik Mills ]
