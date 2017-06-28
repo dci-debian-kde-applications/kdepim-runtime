@@ -10,6 +10,7 @@ kdepim-runtime (4:17.04.2-0ubuntu1) UNRELEASED; urgency=medium
   * Install translations and add Breaks/Replaces against kde-l10n
   * New upstream release (17.04.2)
   * Remove kubuntu_disable_flaky_test.patch, issue fixed upstream.
+  * Add kubuntu_disable_failing_tests.diff
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 07 Jun 2017 07:29:25 +0200
 
