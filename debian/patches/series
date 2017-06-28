@@ -1,1 +1,1 @@
-kubuntu_disable_flaky_test.patch
+kubuntu_disable_failing_tests.diff
