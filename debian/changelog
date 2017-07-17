@@ -1,4 +1,4 @@
-kdepim-runtime (4:17.04.2-0ubuntu1) UNRELEASED; urgency=medium
+kdepim-runtime (4:17.04.3-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Rik Mills ]
   * Add new libkpimkdav-dev as build dep
@@ -11,8 +11,9 @@ kdepim-runtime (4:17.04.2-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release (17.04.2)
   * Remove kubuntu_disable_flaky_test.patch, issue fixed upstream.
   * Add kubuntu_disable_failing_tests.diff
+  * New upstream release (17.04.3)
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 07 Jun 2017 07:29:25 +0200
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 17 Jul 2017 03:48:35 +0200
 
 kdepim-runtime (4:16.12.3-0ubuntu2) artful; urgency=medium
 
