@@ -38,6 +38,7 @@ usr/lib/*/qt5/plugins/akonadi_serializer_kcalcore.so
 usr/lib/*/qt5/plugins/akonadi_serializer_mail.so
 usr/lib/*/qt5/plugins/kf5/kio/akonadi.so
 usr/lib/*/qt5/plugins/kf5/kio/pop3.so
+usr/lib/*/sasl2/libkdexoauth2.so*
 usr/share/akonadi/accountwizard/contacts/contactswizard.desktop
 usr/share/akonadi/accountwizard/contacts/contactswizard.es
 usr/share/akonadi/accountwizard/contacts/contactswizard.ui
@@ -100,8 +101,7 @@ usr/share/akonadi/plugins/serializer/akonadi_serializer_contactgroup.desktop
 usr/share/akonadi/plugins/serializer/akonadi_serializer_kalarm.desktop
 usr/share/akonadi/plugins/serializer/akonadi_serializer_kcalcore.desktop
 usr/share/akonadi/plugins/serializer/akonadi_serializer_mail.desktop
-usr/share/doc/HTML/en/kioslave5/pop3/index.cache.bz2
-usr/share/doc/HTML/en/kioslave5/pop3/index.docbook
+usr/share/doc/HTML/*/kioslave5/pop3/
 usr/share/icons/hicolor/128x128/apps/ox.png
 usr/share/icons/hicolor/16x16/apps/ox.png
 usr/share/icons/hicolor/32x32/apps/ox.png
@@ -125,4 +125,5 @@ usr/share/kservices5/akonadi/davgroupware-providers/zimbra.desktop
 usr/share/kservices5/pop3.protocol
 usr/share/kservices5/pop3s.protocol
 usr/share/kservicetypes5/davgroupwareprovider.desktop
+usr/share/locale/
 usr/share/mime/packages/kdepim-mime.xml
