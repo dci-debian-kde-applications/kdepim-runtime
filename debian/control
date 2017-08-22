@@ -6,11 +6,10 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.23.0~),
-               libkf5kio-dev (>= 5.23.0~),
                kross-dev (>= 5.23.0~),
                libboost-dev (>= 1.40.0-2),
                libkf5akonadi-dev (>= 4:15.12.1~),
@@ -32,6 +31,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5itemmodels-dev (>= 5.23.0~),
                libkf5kcmutils-dev (>= 5.12.0~),
                libkf5kdelibs4support-dev (>= 5.23.0~),
+               libkf5kio-dev (>= 5.23.0~),
                libkf5mailtransport-dev (>= 15.12~),
                libkf5mbox-dev (>= 15.12~),
                libkf5mime-dev (>= 15.12~),
@@ -54,7 +54,7 @@ Build-Depends: cmake (>= 2.8.12~),
                qtdeclarative5-dev (>= 5.4.0~),
                qtwebengine5-dev | libqt5webengine5-dev,
                shared-mime-info (>= 0.30),
-               xsltproc
+               xsltproc,
 Standards-Version: 4.1.0
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdepim-runtime.git
@@ -67,16 +67,16 @@ Depends: akonadi-server (>= 1.8),
          kio-sieve,
          kio-smtp,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Replaces: akonadi-kde,
           kdepimlibs-kio-plugins,
           kf5-kdepimlibs-kio-plugins,
-          libmaildir4
+          libmaildir4,
 Breaks: akonadi-kde,
         kdepimlibs-kio-plugins,
         kdepimlibs5 (<< 4:4.4),
         kf5-kdepimlibs-kio-plugins,
-        libmaildir4
+        libmaildir4,
 Description: runtime components for Akonadi KDE
  This package contains Akonadi agents written using KDE Development Platform
  libraries.
