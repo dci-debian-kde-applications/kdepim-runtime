@@ -1,3 +1,69 @@
+kdepim-runtime (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:34:27 +0000
+
+kdepim-runtime (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:20:18 +0000
+
+kdepim-runtime (4:17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:21:27 +0000
+
+kdepim-runtime (4:17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:15:41 +0000
+
+kdepim-runtime (4:17.04.0-1neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 19 Apr 2017 13:03:38 +0000
+
+kdepim-runtime (4:16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:48:04 +0000
+
+kdepim-runtime (4:16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 16:58:28 +0000
+
+kdepim-runtime (4:16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:18:03 +0000
+
+kdepim-runtime (4:16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:26:37 +0000
+
+kdepim-runtime (4:16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:53:00 +0000
+
+kdepim-runtime (4:16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:39:47 +0000
+
 kdepim-runtime (4:16.08.1-1~1.gbp34f313) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @34f313c3c0e974387a40538bebae45ca379a3d1c **
@@ -12,6 +78,18 @@ kdepim-runtime (4:16.08.1-1~1.gbp34f313) UNRELEASED; urgency=medium
   * UNRELEASED
 
  -- Automatic packaging <jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 00:42:47 +0200
+
+kdepim-runtime (4:16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:06:14 +0000
+
+kdepim-runtime (4:16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 18 Aug 2016 10:39:16 +0000
 
 kdepim-runtime (4:16.04.2-2) unstable; urgency=medium
 
