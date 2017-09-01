@@ -1,8 +1,14 @@
-kdepim-runtime (4:17.08.0-1~) UNRELEASED; urgency=medium
+kdepim-runtime (4:17.08.0-1) experimental; urgency=medium
 
   * New upstream release (17.08.0)
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * Add breaks/replaces for kde-l10n-* packages
+  * Bump group breaks (17.08)
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 22 Aug 2017 20:59:05 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Sep 2017 22:20:51 +0200
 
 kdepim-runtime (4:17.08.0-0neon) xenial; urgency=medium
 
