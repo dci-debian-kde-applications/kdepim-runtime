@@ -4,6 +4,7 @@ usr/bin/akonadi_akonotes_resource
 usr/bin/akonadi_birthdays_resource
 usr/bin/akonadi_contacts_resource
 usr/bin/akonadi_davgroupware_resource
+usr/bin/akonadi_facebook_resource
 usr/bin/akonadi_googlecalendar_resource
 usr/bin/akonadi_googlecontacts_resource
 usr/bin/akonadi_ical_resource
@@ -71,6 +72,7 @@ usr/share/akonadi/agents/akonotesresource.desktop
 usr/share/akonadi/agents/birthdaysresource.desktop
 usr/share/akonadi/agents/contactsresource.desktop
 usr/share/akonadi/agents/davgroupwareresource.desktop
+usr/share/akonadi/agents/facebookresource.desktop
 usr/share/akonadi/agents/googlecalendarresource.desktop
 usr/share/akonadi/agents/googlecontactsresource.desktop
 usr/share/akonadi/agents/icaldirresource.desktop
@@ -109,6 +111,7 @@ usr/share/icons/hicolor/48x48/apps/ox.png
 usr/share/icons/hicolor/64x64/apps/ox.png
 usr/share/knotifications5/akonadi_maildispatcher_agent.notifyrc
 usr/share/knotifications5/akonadi_newmailnotifier_agent.notifyrc
+usr/share/knotifications5/akonadi_pop3_resource.notifyrc
 usr/share/kservices5/akonadi.protocol
 usr/share/kservices5/akonadi/davgroupware-providers/citadel.desktop
 usr/share/kservices5/akonadi/davgroupware-providers/davical.desktop
