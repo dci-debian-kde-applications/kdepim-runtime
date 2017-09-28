@@ -1,7 +1,8 @@
 kdepim-runtime (4:17.11.60-0ubuntu2) UNRELEASED; urgency=medium
 
   * Drop build dep on external libkolab. A libpimkolab is now included
-    in this source.
+    in this source. Include libkolabxml-dev instead, as this is still
+    required.
 
  -- Rik Mills <rikmills@kubuntu.org>  Thu, 28 Sep 2017 17:03:10 +0100
 
