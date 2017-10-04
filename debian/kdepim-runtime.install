@@ -4,6 +4,8 @@ usr/bin/akonadi_akonotes_resource
 usr/bin/akonadi_birthdays_resource
 usr/bin/akonadi_contacts_resource
 usr/bin/akonadi_davgroupware_resource
+usr/bin/akonadi_ews_resource
+usr/bin/akonadi_ewsmta_resource
 usr/bin/akonadi_facebook_resource
 usr/bin/akonadi_googlecalendar_resource
 usr/bin/akonadi_googlecontacts_resource
@@ -104,11 +106,20 @@ usr/share/akonadi/plugins/serializer/akonadi_serializer_kalarm.desktop
 usr/share/akonadi/plugins/serializer/akonadi_serializer_kcalcore.desktop
 usr/share/akonadi/plugins/serializer/akonadi_serializer_mail.desktop
 usr/share/doc/HTML/*/kioslave5/pop3/
+usr/share/icons/hicolor/128x128/apps/akonadi-ews.png
 usr/share/icons/hicolor/128x128/apps/ox.png
+usr/share/icons/hicolor/16x16/apps/akonadi-ews.png
 usr/share/icons/hicolor/16x16/apps/ox.png
+usr/share/icons/hicolor/22x22/apps/akonadi-ews.png
+usr/share/icons/hicolor/24x24/apps/akonadi-ews.png
+usr/share/icons/hicolor/32x32/apps/akonadi-ews.png
 usr/share/icons/hicolor/32x32/apps/ox.png
+usr/share/icons/hicolor/48x48/apps/akonadi-ews.png
 usr/share/icons/hicolor/48x48/apps/ox.png
+usr/share/icons/hicolor/64x64/apps/akonadi-ews.png
 usr/share/icons/hicolor/64x64/apps/ox.png
+usr/share/icons/hicolor/72x72/apps/akonadi-ews.png
+usr/share/icons/hicolor/96x96/apps/akonadi-ews.png
 usr/share/knotifications5/akonadi_maildispatcher_agent.notifyrc
 usr/share/knotifications5/akonadi_newmailnotifier_agent.notifyrc
 usr/share/knotifications5/akonadi_pop3_resource.notifyrc
@@ -130,3 +141,5 @@ usr/share/kservices5/pop3s.protocol
 usr/share/kservicetypes5/davgroupwareprovider.desktop
 usr/share/locale/
 usr/share/mime/packages/kdepim-mime.xml
+usr/share/share/akonadi/agents/ewsmtaresource.desktop
+usr/share/share/akonadi/agents/ewsresource.desktop
