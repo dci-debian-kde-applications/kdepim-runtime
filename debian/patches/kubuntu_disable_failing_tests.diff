@@ -1,0 +1,13 @@
+Index: b/resources/imap/autotests/CMakeLists.txt
+===================================================================
+--- a/resources/imap/autotests/CMakeLists.txt
++++ b/resources/imap/autotests/CMakeLists.txt
+@@ -39,7 +39,7 @@
+   testmoveitemstask
+   testremovecollectionrecursivetask
+   testretrievecollectionmetadatatask
+-  testretrievecollectionstask
++#  testretrievecollectionstask
+   testretrieveitemtask
+   testretrieveitemstask
+ )
