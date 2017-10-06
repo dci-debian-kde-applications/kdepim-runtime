@@ -141,5 +141,3 @@ usr/share/kservices5/pop3s.protocol
 usr/share/kservicetypes5/davgroupwareprovider.desktop
 usr/share/locale/
 usr/share/mime/packages/kdepim-mime.xml
-usr/share/share/akonadi/agents/ewsmtaresource.desktop
-usr/share/share/akonadi/agents/ewsresource.desktop
