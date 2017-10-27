@@ -69,7 +69,6 @@ Architecture: any
 Depends: akonadi-server (>= 1.8),
          kio-ldap,
          kio-sieve,
-         kio-smtp,
          ${misc:Depends},
          ${shlibs:Depends}
 Replaces: akonadi-kde,
