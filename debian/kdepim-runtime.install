@@ -74,6 +74,8 @@ usr/share/akonadi/agents/akonotesresource.desktop
 usr/share/akonadi/agents/birthdaysresource.desktop
 usr/share/akonadi/agents/contactsresource.desktop
 usr/share/akonadi/agents/davgroupwareresource.desktop
+usr/share/akonadi/agents/ewsmtaresource.desktop
+usr/share/akonadi/agents/ewsresource.desktop
 usr/share/akonadi/agents/facebookresource.desktop
 usr/share/akonadi/agents/googlecalendarresource.desktop
 usr/share/akonadi/agents/googlecontactsresource.desktop
