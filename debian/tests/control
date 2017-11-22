@@ -1,5 +1,5 @@
 Tests: testsuite
 Depends: @, @builddeps@, build-essential,
          xvfb, xauth, dbus-x11, kinit,
-         akonadi-backend-sqlite
+         akonadi-backend-sqlite, libkf5plasma5
 Restrictions: build-needed
