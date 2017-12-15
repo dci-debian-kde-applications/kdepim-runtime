@@ -4,8 +4,6 @@ usr/bin/akonadi_akonotes_resource
 usr/bin/akonadi_birthdays_resource
 usr/bin/akonadi_contacts_resource
 usr/bin/akonadi_davgroupware_resource
-usr/bin/akonadi_ews_resource
-usr/bin/akonadi_ewsmta_resource
 usr/bin/akonadi_facebook_resource
 usr/bin/akonadi_googlecalendar_resource
 usr/bin/akonadi_googlecontacts_resource
@@ -15,7 +13,6 @@ usr/bin/akonadi_imap_resource
 usr/bin/akonadi_invitations_agent
 usr/bin/akonadi_kalarm_dir_resource
 usr/bin/akonadi_kalarm_resource
-usr/bin/akonadi_kolab_resource
 usr/bin/akonadi_maildir_resource
 usr/bin/akonadi_maildispatcher_agent
 usr/bin/akonadi_mbox_resource
@@ -51,10 +48,6 @@ usr/share/akonadi/accountwizard/ical/icalwizard.ui
 usr/share/akonadi/accountwizard/imap/imapwizard.desktop
 usr/share/akonadi/accountwizard/imap/imapwizard.es
 usr/share/akonadi/accountwizard/imap/imapwizard.ui
-usr/share/akonadi/accountwizard/kolab/kolabwizard.desktop
-usr/share/akonadi/accountwizard/kolab/kolabwizard.es
-usr/share/akonadi/accountwizard/kolab/kolabwizard.ui
-usr/share/akonadi/accountwizard/kolab/kolabwizard2.ui
 usr/share/akonadi/accountwizard/mailbox/mailboxwizard.desktop
 usr/share/akonadi/accountwizard/mailbox/mailboxwizard.es
 usr/share/akonadi/accountwizard/mailbox/mailboxwizard.ui
@@ -74,8 +67,6 @@ usr/share/akonadi/agents/akonotesresource.desktop
 usr/share/akonadi/agents/birthdaysresource.desktop
 usr/share/akonadi/agents/contactsresource.desktop
 usr/share/akonadi/agents/davgroupwareresource.desktop
-usr/share/akonadi/agents/ewsmtaresource.desktop
-usr/share/akonadi/agents/ewsresource.desktop
 usr/share/akonadi/agents/facebookresource.desktop
 usr/share/akonadi/agents/googlecalendarresource.desktop
 usr/share/akonadi/agents/googlecontactsresource.desktop
@@ -85,7 +76,6 @@ usr/share/akonadi/agents/imapresource.desktop
 usr/share/akonadi/agents/invitationsagent.desktop
 usr/share/akonadi/agents/kalarmdirresource.desktop
 usr/share/akonadi/agents/kalarmresource.desktop
-usr/share/akonadi/agents/kolabresource.desktop
 usr/share/akonadi/agents/maildirresource.desktop
 usr/share/akonadi/agents/maildispatcheragent.desktop
 usr/share/akonadi/agents/mboxresource.desktop
@@ -108,20 +98,11 @@ usr/share/akonadi/plugins/serializer/akonadi_serializer_kalarm.desktop
 usr/share/akonadi/plugins/serializer/akonadi_serializer_kcalcore.desktop
 usr/share/akonadi/plugins/serializer/akonadi_serializer_mail.desktop
 usr/share/doc/HTML/*/kioslave5/pop3/
-usr/share/icons/hicolor/128x128/apps/akonadi-ews.png
 usr/share/icons/hicolor/128x128/apps/ox.png
-usr/share/icons/hicolor/16x16/apps/akonadi-ews.png
 usr/share/icons/hicolor/16x16/apps/ox.png
-usr/share/icons/hicolor/22x22/apps/akonadi-ews.png
-usr/share/icons/hicolor/24x24/apps/akonadi-ews.png
-usr/share/icons/hicolor/32x32/apps/akonadi-ews.png
 usr/share/icons/hicolor/32x32/apps/ox.png
-usr/share/icons/hicolor/48x48/apps/akonadi-ews.png
 usr/share/icons/hicolor/48x48/apps/ox.png
-usr/share/icons/hicolor/64x64/apps/akonadi-ews.png
 usr/share/icons/hicolor/64x64/apps/ox.png
-usr/share/icons/hicolor/72x72/apps/akonadi-ews.png
-usr/share/icons/hicolor/96x96/apps/akonadi-ews.png
 usr/share/knotifications5/akonadi_maildispatcher_agent.notifyrc
 usr/share/knotifications5/akonadi_newmailnotifier_agent.notifyrc
 usr/share/knotifications5/akonadi_pop3_resource.notifyrc
