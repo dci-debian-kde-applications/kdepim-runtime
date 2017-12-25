@@ -6,7 +6,13 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
 
 override_dh_auto_install:
-	$(overridden_command) --destdir=debian/tmp
+	$(overridden_command)
+	# TODO: talk to usptream about getting these not installed. they are not used.
+	rm -rf debian/kdepim-runtime/usr/share/dbus-1/interfaces/
+	# TODO: upstream SKIP_NAMELINK so we get no symlinks for private libs
+	find debian/kdepim-runtime -name '*.so' -type l -delete
+	# At the end, remove empty directories
+	find debian/kdepim-runtime -type d -empty -delete
 
 override_dh_auto_test:
 	# Disable dh_auto_test at build time

@@ -1,5 +1,12 @@
 kdepim-runtime (4:17.08.3-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Stop forcing debian/tmp as local installation directory, installing
+    everything to the final location
+    - drop kdepim-runtime.install, no more useful now
+    - make sure to not ship XML files of D-Bus interfaces, and development
+      symlinks of libraries
+    - drop not-installed, no more useful now
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Dec 2017 00:38:23 +0100
 
