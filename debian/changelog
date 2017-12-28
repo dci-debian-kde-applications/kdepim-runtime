@@ -13,7 +13,7 @@ kdepim-runtime (4:17.08.3-2) UNRELEASED; urgency=medium
   * Remove trailing whitespaces in changelog.
 
   [ Sandro Knauß ]
-  * Fix "kdepim-runtime depends on libkolab-dev" (Closes: #88511)
+  * Fix "kdepim-runtime depends on libkolab-dev" (Closes: #885111)
     Change dependency to libkolab1
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Dec 2017 00:38:23 +0100
