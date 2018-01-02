@@ -1,3 +1,4 @@
+# private libraries
 kdepim-runtime: package-name-doesnt-match-sonames
-kdepim-runtime: image-file-in-usr-lib
+# private library
 kdepim-runtime: no-symbols-control-file

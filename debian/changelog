@@ -11,6 +11,7 @@ kdepim-runtime (4:17.08.3-2) UNRELEASED; urgency=medium
     libmaildir4 breaks/replaces, since those packages are for kdepimlibs 4.x.
   * Simplify watch file, and switch it to https.
   * Remove trailing whitespaces in changelog.
+  * Update lintian overrides.
 
   [ Sandro Knauß ]
   * Fix "kdepim-runtime depends on libkolab-dev" (Closes: #885111)
