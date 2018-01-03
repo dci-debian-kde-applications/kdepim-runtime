@@ -12,6 +12,7 @@ kdepim-runtime (4:17.08.3-2) UNRELEASED; urgency=medium
   * Simplify watch file, and switch it to https.
   * Remove trailing whitespaces in changelog.
   * Update lintian overrides.
+  * Remove alternative libqt5webengine5-dev build dependency.
 
   [ Sandro Knauß ]
   * Fix "kdepim-runtime depends on libkolab-dev" (Closes: #885111)
