@@ -1,5 +1,8 @@
 kdepim-runtime (4:17.08.3-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Do not delete .so symlinks for sasl2 plugins, otherwise they will not be
+    loaded; this fixes the XOAUTH2 authentication in the IMAP resource.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Jan 2018 14:33:12 +0100
 

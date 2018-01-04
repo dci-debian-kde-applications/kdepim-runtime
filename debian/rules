@@ -10,7 +10,8 @@ override_dh_auto_install:
 	# TODO: talk to usptream about getting these not installed. they are not used.
 	rm -rf debian/kdepim-runtime/usr/share/dbus-1/interfaces/
 	# TODO: upstream SKIP_NAMELINK so we get no symlinks for private libs
-	find debian/kdepim-runtime -name '*.so' -type l -delete
+	# make sure to skip the symlinks for sasl2 plugins
+	find debian/kdepim-runtime \( -name '*.so' -type l \! -path '*/usr/lib/*/sasl2/*' \) -delete
 	# At the end, remove empty directories
 	find debian/kdepim-runtime -type d -empty -delete
 
